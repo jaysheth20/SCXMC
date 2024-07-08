@@ -1,0 +1,41 @@
+﻿---
+ID: "420e53ac-6a4b-41bd-84b4-af34908adc82"
+Parent: "f3cfdedf-85f1-4c48-9dd2-499a9c588019"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/SitecoreXMC/SitecoreXMC/Presentation/Partial Designs/Footer/Data/Futures
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240620T061641Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\iFwou2ptGi
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\iFwou2ptGi
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>Future Plan :</p>
+        <p>Network Over Globe</p>
+        <p>Artificial Intelligence</p>
+        <p>Machine Learning</p>
+        <p>Data Expertness</p>
+        <p>Networking</p>
+        <p>Future Development</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55152599-0b41-44e0-a4cb-c99b182fa2c1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iFwou2ptGi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T064524Z

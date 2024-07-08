@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@sitecore-jss/sitecore-jss-nextjs": "^22.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3"
+  }
+}

@@ -1,0 +1,33 @@
+﻿---
+ID: "af41c0a9-0a9d-4f95-902b-03bfc3810cd7"
+Parent: "fb849407-9c16-4a5c-85b5-668c2d2a9c3d"
+Template: "fb849407-9c16-4a5c-85b5-668c2d2a9c3d"
+Path: /sitecore/templates/Project/SitecoreXMC/Services/Services Teaser Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6BF1B7FC-32A6-4158-9A2A-880666AB1A96}
+    {FB849407-9C16-4A5C-85B5-668C2D2A9C3D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a52b84c-0f7f-4202-be06-b2575bc127e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\iFwou2ptGi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240624T124610Z
