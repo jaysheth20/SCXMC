@@ -8,6 +8,10 @@ SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
   Value: footer
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{052258E7-F7B5-414A-86CA-48038E8093DF}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -26,14 +30,42 @@ SharedFields:
           p:after="r[@uid='{E23F5077-6115-4CD7-AEA4-65AB5C97C91F}']"
           s:ds="local:/Data/Address"
           s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-          s:par="?Styles=%7bF8422C00-2F1E-4227-9EE7-12129C7416F2%7d&amp;FieldNames=%7bD54375FF-96EC-4ECA-BEFA-437C86B1563C%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames=%7BD54375FF-96EC-4ECA-BEFA-437C86B1563C%7D&amp;Styles=%7BF8422C00-2F1E-4227-9EE7-12129C7416F2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId"
           s:ph="/headless-footer/container-1" />
         <r
           uid="{984E5C4C-35DF-4719-9108-26F5535EE880}"
-          p:after="*[1=2]"
+          p:after="r[@uid='{A3CDA212-9DCA-4894-BF10-D75A5E425DB1}']"
           s:ds="local:/Data/Contact info"
           s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
           s:par="?Styles=%7bF8422C00-2F1E-4227-9EE7-12129C7416F2%7d&amp;FieldNames=%7bD54375FF-96EC-4ECA-BEFA-437C86B1563C%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{32F19AB5-99A0-45D6-88B4-177D41B99373}"
+          p:after="r[@uid='{984E5C4C-35DF-4719-9108-26F5535EE880}']"
+          s:ds="local:/Data/Social"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames=%7BD54375FF-96EC-4ECA-BEFA-437C86B1563C%7D&amp;Styles=%7BF8422C00-2F1E-4227-9EE7-12129C7416F2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{280B2EC6-BC35-4024-9BB1-8ED382F860DB}"
+          p:after="r[@uid='{32F19AB5-99A0-45D6-88B4-177D41B99373}']"
+          s:ds="local:/Data/Services"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames=%7BD54375FF-96EC-4ECA-BEFA-437C86B1563C%7D&amp;Styles=%7BF8422C00-2F1E-4227-9EE7-12129C7416F2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{053076D9-D055-4EFB-8DE8-2B265D2B56CF}"
+          p:after="r[@uid='{280B2EC6-BC35-4024-9BB1-8ED382F860DB}']"
+          s:ds="local:/Data/Futures"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames&amp;Styles=%7BF8422C00-2F1E-4227-9EE7-12129C7416F2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{45342533-5161-4D6F-ACE1-29682A5D8F01}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Logo"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames&amp;Styles=%7B84E4927C-06FD-4FA3-97A8-82577C05C631%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
           s:ph="/headless-footer/container-1" />
       </d>
     </r>
@@ -58,11 +90,11 @@ Languages:
         sitecore\jay@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2288e7da-9ac2-414d-9eb9-8593eaa86029"
+      Value: "7b1b178b-8bbe-4d02-8a03-013d4af04fdd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jay@sourceved.com
+        sitecore\iFwou2ptGi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240606T092138Z
+      Value: 20240620T064629Z

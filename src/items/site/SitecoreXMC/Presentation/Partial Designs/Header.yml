@@ -11,7 +11,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FD61D4CD-A0B8-4E80-9E03-BED99402BC4E}" />
+    <image mediaid="{48783983-F795-4C12-BA5A-9A67A2BE403A}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -29,8 +29,9 @@ SharedFields:
         <r
           uid="{AE739D9F-B1EE-45B4-976A-5F15C31A1493}"
           p:after="*[1=2]"
+          s:ds=""
           s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-          s:par="?LevelFrom={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;LevelTo={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;FieldNames=%7bA301A58B-E539-40E3-8015-C19EFC9DA1B5%7d&amp;AddRoot=1&amp;Styles=%7bDE54739A-478B-4E05-9D02-4935D0575228%7d%7c%7b79D45C86-CA95-4C79-B3AE-2EDFCB5932A1%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;NavigationRoot=%7b58EC666F-282E-42B9-B84C-3FCC26F2985A%7d"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BA301A58B-E539-40E3-8015-C19EFC9DA1B5%7D&amp;Styles=%7B79D45C86-CA95-4C79-B3AE-2EDFCB5932A1%7D%7C%7BDE54739A-478B-4E05-9D02-4935D0575228%7D&amp;NavigationRoot=%7B58EC666F-282E-42B9-B84C-3FCC26F2985A%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="headless-header" />
       </d>
     </r>
@@ -55,11 +56,11 @@ Languages:
         sitecore\jay@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8d213bcd-31a3-495b-97c1-f42ba854fd72"
+      Value: "2cd4ac75-6111-40be-aa7d-a1ac30b97bf1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jay@sourceved.com
+        sitecore\akshay@sourceved.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240606T092141Z
+      Value: 20240708T073013Z
