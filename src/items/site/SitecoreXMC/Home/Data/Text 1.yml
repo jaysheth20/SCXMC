@@ -1,0 +1,41 @@
+﻿---
+ID: "3dca54f9-29c9-45fb-b7ad-d00e3db72fde"
+Parent: "bd0df43a-8775-441e-bc6a-475024f588ab"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/SitecoreXMC/SitecoreXMC/Home/Data/Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240709T095817Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\akshay@sourceved.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\akshay@sourceved.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="fusion-title title fusion-title-3 fusion-sep-none fusion-title-text fusion-title-size-div" style="color: #212934; background-color: #ffffff; margin-top: var(--awb-margin-top); margin-right: var(--awb-margin-right); margin-bottom: var(--awb-margin-bottom); margin-left: var(--awb-margin-left); border-bottom-color: var(--awb-sep-color); letter-spacing: 0.27px;">
+        <div class="fusion-title-heading title-heading-left title-heading-tag fusion-responsive-typography-calculated" style="color: var(--awb-text-color); margin: 0px; padding: 0px; line-height: 1.2;">Your Trusted<br />
+        <span style="color: #ffd638;">Sitecore Solution Partner</span></div>
+        </div>
+        <div class="fusion-text fusion-text-11" style="color: var(--awb-text-color); background-color: #ffffff; margin: var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left); letter-spacing: 0.27px; line-height: var(--awb-line-height);">
+        <p style="margin: 0px;">We are premier Sitecore CMS services provider, reshaping digital landscapes with expertise and innovation.</p>
+        </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ef42af4-9af4-4c8b-973a-fbbc307a2219"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\akshay@sourceved.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240709T100433Z
