@@ -1,13 +1,13 @@
 ﻿---
-ID: "be4bff1d-43a7-4971-935f-57b8e8e08a1e"
+ID: "dc0ca27a-b91e-4b12-93a3-4a4e2fcbc546"
 Parent: "58ec666f-282e-42b9-b84c-3fcc26f2985a"
 Template: "e8c04077-83f8-40ff-a5a3-fe3063f8a7fa"
-Path: /sitecore/content/SitecoreXMC/SitecoreXMC/Home/Test
+Path: /sitecore/content/SitecoreXMC/SitecoreXMC/Home/Local1
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FA0CF9B1-B32E-45AF-8884-20D42345F6FD}" />
+    <image mediaid="{5689DBCC-E14E-4D79-B8BC-FCB9F144E8C6}" />
 Languages:
 - Language: en
   Versions:
@@ -15,10 +15,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240708T134257Z
+      Value: 20240709T070209Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Test
+      Value: Local1
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -29,17 +29,17 @@ Languages:
         sitecore\akshay@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d332930-edfc-4d39-99f5-9b54e7f44bd4"
+      Value: "443be46c-bc36-496e-8790-a7e4caada1aa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\akshay@sourceved.com
     - ID: "bdaefbbc-fa9e-4132-88fd-a1296946d31b"
       Hint: Content
-      Value: this is test gigabite as welll as giga.....
+      Value: i want to inform you that this is local 1 page&nbsp;
     - ID: "d732ab5e-e20e-424a-817b-7019f6414919"
       Hint: Title
-      Value: Testlocal
+      Value: Local1
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240709T054305Z
+      Value: 20240709T070238Z
