@@ -27,6 +27,7 @@
         {
           "name": "projectRenderings",
           "path": "/sitecore/Layout/Renderings/Project/SitecoreXMC",
+          "scope": "ItemAndDescendants",
           "allowedPushOperations": "CreateUpdateAndDelete"
         },
         {
