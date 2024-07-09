@@ -51,12 +51,12 @@
           "rules": [
             {
               "path": "/home",
-              "scope": "SingleItem",
+              "scope": "ItemAndDescendants",
               "allowedPushOperations": "CreateOnly"
             },
             {
               "path": "/Media",
-              "scope": "SingleItem",
+              "scope": "ItemAndChildren",
               "allowedPushOperations": "CreateAndUpdate"
             },
             {
