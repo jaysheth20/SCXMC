@@ -29,9 +29,15 @@ SharedFields:
 - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
   Hint: PlaceholdersPath
   Value: "{ECEE7850-93B3-479B-9F78-53C1AC892A46}"
+- ID: "5e8ed724-126a-4bb7-8106-85c2d1042c9e"
+  Hint: ServerSideRenderingEngineApplicationUrl
+  Value: "https://xmc-eh-iopdjbvpimwjomgemnc4i.sitecorecloud.io/"
 - ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
   Hint: FilesystemPath
   Value: /dist/SitecoreXMC
+- ID: "89849738-34ee-46bc-b525-825f1153189e"
+  Hint: ServerSideRenderingEngineEndpointUrl
+  Value: "https://xmc-eh-iopdjbvpimwjomgemnc4i.sitecorecloud.io:443/api/editing/render"
 - ID: "9016141c-ff51-40f2-9135-40f5161b9784"
   Hint: ServerSideRenderingEngine
   Value: http
@@ -74,14 +80,14 @@ Languages:
         sitecore\jay@sourceved.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e2f25326-6dd8-4c94-a010-dbf869cfbed9"
+      Value: "3ad9a847-18b6-4ffd-b05d-4bccae3ace24"
     - ID: "9ce73b35-34d3-49dc-bd5a-ce1e8267fda9"
       Hint: ComponentDataSourceTemplates
       Value: "{220B84F3-AA87-4C15-86EA-EE1982152597}"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jay@sourceved.com
+        sitecore\akshay@sourceved.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240607T072638Z
+      Value: 20240709T093517Z
