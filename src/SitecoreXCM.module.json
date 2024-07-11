@@ -4,6 +4,24 @@
     "items": {
       "includes": [
         {
+          "name": "SyncChunk",
+          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Sync",
+          "scope": "ItemAndDescendants",
+          "database":"core"
+        },
+        {
+          "name": "SyncRibbons",
+          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/SV",
+          "scope": "ItemAndDescendants",
+          "database":"core"
+        },
+        {
+          "name": "SyncStrips",
+          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Strips/Random sync",
+          "scope": "ItemAndDescendants",
+          "database":"core"
+        },
+        {
             "name": "templatesProject",
             "path": "/sitecore/templates/Project/SitecoreXMC",
             "allowedPushOperations": "CreateUpdateAndDelete"
