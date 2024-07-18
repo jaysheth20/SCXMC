@@ -1,6 +1,5 @@
-import { createGraphQLClientFactory } from './create';
-
 import config from 'temp/config';
+import { createGraphQLClientFactory } from './create';
 
 // The GraphQLRequestClientFactory serves as the central hub for executing GraphQL requests within the application
 

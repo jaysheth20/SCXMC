@@ -1,5 +1,4 @@
 import { ParsedUrlQuery } from 'querystring';
-
 import * as plugins from 'temp/extract-path-plugins';
 
 export interface Plugin {

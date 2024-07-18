@@ -14,7 +14,7 @@ const ReturnItems = (props: ReturnItemsProps) => {
   const { returnItems, handleChange } = props;
   const { t } = useI18n();
   const renderQty = (qty: number) => {
-    const qtyArry = [];
+    const qtyArry: number[] = [];
     for (let index = 1; index <= qty; index++) {
       qtyArry.push(index);
     }

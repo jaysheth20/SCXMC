@@ -1,10 +1,9 @@
 import { SiteInfo } from '@sitecore-jss/sitecore-jss-nextjs';
 import { editingDataService } from '@sitecore-jss/sitecore-jss-nextjs/editing';
+import { SitecorePageProps } from 'lib/page-props';
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
-
 import { Plugin } from '..';
 
-import { SitecorePageProps } from 'lib/page-props';
 class PreviewModePlugin implements Plugin {
   order = 1;
 
