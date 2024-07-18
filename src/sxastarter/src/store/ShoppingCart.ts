@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { ShoppingCartType } from 'components/cart/Models/ShoppingCartType';
+import { ShoppingCartType } from 'components/Cart/Models/ShoppingCartType';
 import { getCart } from 'src/services/ShoppingCartService';
 
 const shoppingcartSlice = createSlice({

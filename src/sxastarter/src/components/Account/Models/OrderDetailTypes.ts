@@ -4,7 +4,7 @@ import {
   BillingAddress,
   ShippingAddress,
   GiftCard,
-} from 'components/cart/Models/ShoppingCartType';
+} from 'components/Cart/Models/ShoppingCartType';
 
 export interface OrderDetailType {
   PrintMode: boolean;
