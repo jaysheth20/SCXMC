@@ -1,5 +1,5 @@
 import axiosInterceptorInstance from 'axiosInterceptorInstance';
-import { WishlistType } from 'components/account/Models/WishListType';
+import { WishlistType } from 'components/Account/Models/WishListType';
 import * as EndPoints from 'lib/constants/EndPoints';
 
 export const moveWishlistItemsToCart = (productId: any) => {

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { WishlistItem } from 'components/account/Models/WishListType';
+import { WishlistItem } from 'components/Account/Models/WishListType';
 import { getWishlist } from 'src/services/WishListService';
 
 const wishlistSlice = createSlice({

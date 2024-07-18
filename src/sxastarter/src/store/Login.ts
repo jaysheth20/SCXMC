@@ -1,7 +1,7 @@
 import Cookies from 'js-cookie';
 import { createSlice } from '@reduxjs/toolkit';
 
-import { CustomerDetails } from 'components/account/Models/CustomerType';
+import { CustomerDetails } from 'components/Account/Models/CustomerType';
 
 const Loginslice = createSlice({
   name: 'login',
