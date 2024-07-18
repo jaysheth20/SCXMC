@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { ProductDetailType } from 'components/product/Models/ProductDetailType';
+import { ProductDetailType } from 'components/Product/Models/ProductDetailType';
 
 const productDetailSlice = createSlice({
   name: 'productDetail',

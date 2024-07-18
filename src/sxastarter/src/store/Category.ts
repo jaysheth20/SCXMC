@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { RootCategory } from 'components/product/Models/CategoryType';
+import { RootCategory } from 'components/Product/Models/CategoryType';
 import { getCategory } from 'src/services/ProductService';
 
 const TopMenuSlice = createSlice({
