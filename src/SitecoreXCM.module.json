@@ -4,6 +4,11 @@
   "items": {
     "includes": [
       {
+        "name": "Site",
+        "path":"/sitecore/content/sitecore-jss-app",
+        "scope": "SingleItem"
+      },
+      {
         "name": "Home",
         "path":"/sitecore/content/sitecore-jss-app/home",
         "allowedPushOperations": "createUpdateAndDelete",
