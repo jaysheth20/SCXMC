@@ -1,0 +1,64 @@
+﻿---
+ID: "e6a0f918-e203-49d6-b4db-9818475b6b5f"
+Parent: "a7cc7fa2-eef3-4abd-8192-68acb21d9f27"
+Template: "f1cc134b-91d0-4984-843f-73bdfff2582c"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/Apple iCam
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11711da6-4ad0-4894-9e40-44e4af860a48"
+      Hint: SKU
+      Value: APPLE_CAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140522Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "7870f8c4-9e2b-4ea9-8c73-36c052ab3b2e"
+      Hint: InventoryMethod
+      Value: ManageStock
+    - ID: "7939dda2-9deb-4410-bed0-1a9c0b1960ef"
+      Hint: FreeShipping
+      Value: 0
+    - ID: "8303a53a-a87a-4d47-9d6b-3ad3871aa638"
+      Hint: FullDescription
+      Value: "<p>A few months ago we featured the amazing WVIL camera, by many considered the future of digital photography. This is another very good looking concept, iCam is the vision of Italian designer Antonio DeRosa, the idea is to have a device that attaches to the iPhone 5, which then allows the user to have a camera with interchangeable lenses. The device would also feature a front-touch screen and a projector. Would be great if apple picked up on this and made it reality.</p>"
+    - ID: "8b5a07d9-d62b-4111-8cdc-192ad48a3187"
+      Hint: ShortDescription
+      Value: Photography becomes smart
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b53c2836-c215-4485-83f4-3c4dbbd3695a"
+    - ID: "983e66a6-e2fe-42b3-949f-b11d00eaf403"
+      Hint: Manufacturers
+      Value: "{222E44A6-F582-4FDA-9850-CDA859697696}"
+    - ID: "b035e599-4a90-4e6d-92b8-c100703f3822"
+      Hint: ProductId
+      Value: 17
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141038Z
+    - ID: "dd065948-be66-4e11-a230-8837fca7a404"
+      Hint: StockQuantity
+      Value: In stock
+    - ID: "eea8521d-8877-45ba-9743-448d4e23d1ad"
+      Hint: ProductName
+      Value: Apple iCam
+    - ID: "f8cf5733-377a-4955-ad44-1c5311f7956c"
+      Hint: Price
+      Value: $1,300.00
+    - ID: "fe85197b-46e1-46ad-add5-16ca36dfb64f"
+      Hint: ShippingEnabled
+      Value: 1

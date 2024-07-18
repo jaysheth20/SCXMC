@@ -1,0 +1,31 @@
+﻿---
+ID: "9e3e31e2-8c38-4122-bd9c-66fa144f36b3"
+Parent: "164b87de-70f3-4e78-b781-c0a0e8722351"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Login/Page Components/Feature Benefits/Benefits"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E9106661-A715-462F-82FD-71691D09CE26}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T071306Z
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: Benefits
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60aa6b03-6d8d-4f69-b840-b88495c55f5b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T071306Z

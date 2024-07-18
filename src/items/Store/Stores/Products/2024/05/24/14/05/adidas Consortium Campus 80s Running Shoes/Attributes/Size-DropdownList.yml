@@ -1,0 +1,34 @@
+﻿---
+ID: "46864e8f-1cbc-4068-9389-4c00fcd9d452"
+Parent: "b02ec611-08a5-4543-8bcb-6f6f54daca56"
+Template: "77da1388-bf02-4efd-8c4b-a7bce446d63a"
+Path: "/sitecore/Stores/Products/2024/05/24/14/05/adidas Consortium Campus 80s Running Shoes/Attributes/Size-DropdownList"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140523Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "429f319a-f418-4554-b2e7-332e2b67b8fe"
+    - ID: "b45c0c44-3071-49e1-a287-7f9d076b394c"
+      Hint: IsRequired
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141038Z

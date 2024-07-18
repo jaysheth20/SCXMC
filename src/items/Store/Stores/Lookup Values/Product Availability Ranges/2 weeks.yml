@@ -1,0 +1,40 @@
+﻿---
+ID: "e3c603a0-2ee5-45f5-b74c-92a7f6337fe8"
+Parent: "52f8db06-a7e3-4b64-bd83-8502ae732d40"
+Template: "c5d60578-bebc-43ff-9bd6-5d86a440811d"
+Path: /sitecore/Stores/Lookup Values/Product Availability Ranges/2 weeks
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111135Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "876ee3c5-47da-479c-a436-9e2898293164"
+    - ID: "91d24cf2-700a-44fe-ab61-3ccabe53fe53"
+      Hint: Id
+      Value: 3
+    - ID: "a60a06e2-d13d-47e1-b909-0b0c108cbbb3"
+      Hint: DisplayOrder
+      Value: 3
+    - ID: "af30c923-3d56-43cc-b645-2411fd7aab37"
+      Hint: Name
+      Value: 2 weeks
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111135Z

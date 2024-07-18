@@ -1,0 +1,46 @@
+﻿---
+ID: "89586fee-8222-41c5-bad5-119ce06d496b"
+Parent: "98ff1768-a5e0-4ea1-b76a-0c6637c5a55e"
+Template: "84b4281c-4c1d-4836-8987-ecaba72bec96"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Measure Dimension/inches"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111125Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "56f3cd3d-a5f9-45a8-a713-12eb3247e862"
+      Hint: Ratio
+      Value: 1.00000000
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "88eb2494-08ee-438e-8b05-bb48f344117e"
+      Hint: SystemKeyword
+      Value: inches
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd77be1b-ce61-4bef-bc30-fa2bd7078df5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "cbf0736d-45d2-4ba1-9446-5207f2209e9e"
+      Hint: DisplayOrder
+      Value: 0
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111125Z
+    - ID: "ef774199-1da0-4a2e-9231-1e07ef20b0ac"
+      Hint: Name
+      Value: inch(es)
+    - ID: "f6bd01dd-726f-439d-9a4d-ce38aa662eab"
+      Hint: Id
+      Value: 1

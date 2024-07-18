@@ -1,0 +1,37 @@
+﻿---
+ID: "222e44a6-f582-4fda-9850-cda859697696"
+Parent: "09ccf8af-5721-40b6-86a9-b5e02d586fe3"
+Template: "114ed5f7-3469-452f-bf02-8bdf7ffe8fea"
+Path: /sitecore/Stores/Lookup Values/Manufacturers/Apple
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240319T130529Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7fe01fda-03de-45f1-81a1-69b51eb2c72a"
+      Hint: Id
+      Value: 1
+    - ID: "82bc8da5-4cb1-46d5-8679-a9511978d082"
+      Hint: Name
+      Value: Apple
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b716186-643d-4b5e-8a8b-e9a3c2b649e8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240319T130529Z

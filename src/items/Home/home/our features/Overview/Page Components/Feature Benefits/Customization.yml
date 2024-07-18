@@ -1,0 +1,30 @@
+﻿---
+ID: "d5c85d5e-e49a-4bf1-b548-57fa5e5b4bc6"
+Parent: "222a3a52-cd8a-478a-bc6c-ca0419ffea70"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Feature Benefits/Customization"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T110708Z
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: Customization
+    - ID: "811a17b1-df81-4134-97e5-a7f8014e44ed"
+      Hint: Description
+      Value: |
+        <span style="color: #383e4d; background-color: #ffffff;">Today customers seek personalized experiences that fit their needs and comply with purchasing desires. Being decoupled from the back-end, a headless ecommerce software helps businesses customize shopping preferences, prepare recommendations and promotions based on previous purchase history. This creates stronger customer retention rates.</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a47017f-0d4d-4ca7-86b0-aad03f30684a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T110719Z

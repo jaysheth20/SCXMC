@@ -1,0 +1,46 @@
+﻿---
+ID: "28504a25-3125-43b1-a913-437d7c213711"
+Parent: "7591bde8-c6f6-4853-864b-b2fe75b1cf31"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Feature/Experience Accelerator/Maps/pin_norway
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/28504A25312543B1A913437D7C213711.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "28504a25-3125-43b1-a913-437d7c213711"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMTJDBGvsAAADJklEQVRYR8WWv4sTQRTHNznjeQpyoIh4XOEP7EQwjSdIwCp/QGIkySbhiqsUBMFO0olgL14rV4qNf4CFlaAI/qjEShC0EA7RQr3E72eys04ms5ut4sLjzb7vvPd5mZ3ZTTQej/+rBYOLtGBwkRYMLtKCwUVaMLhICwYXaVGtVtuHNZvNJdn+4XBYtr5arVastrW1VcnSGPsacXRfw1sNMw0QcCfYIlYLwTudzmHZhTiONwaDwbqrkVMETiwi4E7A2wloPlzQy91u96nAv2TjXq83TvwHxW9r/sGicGI0UAjOveD3BNtzoCH/Ro2ccWtSh3wfjo/cGxduY9ar8F0AeXA7ln1U3nHy8uD4dAXmwDdkM79c9qPXi7/Ij3xN/tE8OJpZgTw4z1IFH7sALTHP/4b8IXLkz+v+tdfEn3a7fYq6efth7jFsNBorKvbTKYzdQbNFGG9ubp5Q/LvX6PU8eNoAAXeChaOp2Flb0Cl8MsmZegdIf2LnJPMf5MEZB4+hhaNpGc+58MSvofm/Tpp5VBMzK7Xt1ibHhRObOYYunE3U7/dXVcjfgDd9uFblmOLfLByvmKRsONrUMfThVlPhFxaeNKDd37tar9eXmcMjUeyZC2e+4pfIp14Ijk9XIAueAAYO3PHxZ/n3st8+XPaKfOplwfFmBfLgaIxV8CWFZ5uYNObBR2r6CvXy4MSjAnASeQ1fVOG9efDE75AzD24aKAJnTCyOuw8LwHfl14rA0cwxLAJHU/EjauJrDhy7VRROLCoKxzP334YMwt/p2B4oCic2cwwTcQZutaSJ5wH4SKb6xeH44DHMgqMzVgN8fMzRc5rYCQFsXkjDzxzDOfD0kyrofQe+22q11t08vM3LglN76hhmwFk+xiUtf0lfR/ZCWX5V++ATe0ENsPGWFKug6Q0JjDwaYByEw02PYQ68FCWXQCX9Yt6My9JK8tcUe6sxf1KPSltRjC9omsM86oTgup8cwww43ZtC5v97crEK0koUYJ6gp3VPvgEl09LLxvA+nA1tHkEAbpbdVHAulpdECmBunrxtOs2L4w7QtDHVTvcD8OFwWP4LmH6NjPmtI9cAAAAASUVORK5CYII=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 950
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T130948Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9b9f174a-0225-4a49-aecb-a4edbd4f3276"

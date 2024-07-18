@@ -1,0 +1,20 @@
+﻿---
+ID: "e6c39b2a-af66-4990-a17e-8f7438679700"
+Parent: "0ea15b6a-ba98-4f76-acba-71e102abd06f"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/Experience Accelerator/Bootstrap/Bootstrap/fonts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190429T103446Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1b43b86e-a9d6-4a3c-bf3e-9ec282159934"

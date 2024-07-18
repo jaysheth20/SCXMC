@@ -1,0 +1,30 @@
+﻿---
+ID: "f2e521fd-a54b-42d1-8ee5-38a685ff0241"
+Parent: "06cd9940-914b-4c63-b845-909fe584cac4"
+Template: "f30c429e-01cb-4f69-b2f0-1cb3c5ab40bc"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Contact/9898787878"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1688aefb-43d7-4595-a5e6-f29082ecf5d9"
+      Hint: Link
+      Value: |
+        <link text="Hotline: +1 214-717-4816" linktype="anchor" url="tel:9898787878" anchor="tel:9898787878" title="" class="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T121906Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4918fe0-71f3-4291-bfcb-3d459d7b2f7e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T123958Z
+    - ID: "e9005b1e-a413-4f01-87eb-0ef1d1abc06e"
+      Hint: Name
+      Value: 9898787878

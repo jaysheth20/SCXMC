@@ -1,0 +1,46 @@
+﻿---
+ID: "7a6a34cc-1d99-4a56-908c-ff3053752f8a"
+Parent: "da282a63-e03f-47d1-b4f7-c4a7840a95f8"
+Template: "a8c3ce2f-3d65-4049-bd23-890b6ae1b4df"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Measure Weight/grams"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111129Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "56f3cd3d-a5f9-45a8-a713-12eb3247e862"
+      Hint: Ratio
+      Value: 453.59237000
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "88eb2494-08ee-438e-8b05-bb48f344117e"
+      Hint: SystemKeyword
+      Value: grams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09a5c8a6-756b-41d6-8897-d4ecefde9473"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "cbf0736d-45d2-4ba1-9446-5207f2209e9e"
+      Hint: DisplayOrder
+      Value: 1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111129Z
+    - ID: "ef774199-1da0-4a2e-9231-1e07ef20b0ac"
+      Hint: Name
+      Value: gram(s)
+    - ID: "f6bd01dd-726f-439d-9a4d-ce38aa662eab"
+      Hint: Id
+      Value: 4

@@ -1,0 +1,35 @@
+﻿---
+ID: "b804e207-a1a9-408a-b336-c835afe938f9"
+Parent: "e785e03e-d431-4fb6-a8c4-7403d344322a"
+Template: "7a20a95f-85de-45fc-b2a7-c87c1e5fdbf5"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Checkout Attributes/Gift wrapping"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111102Z
+    - ID: "47b2fbfd-0a3e-4277-b51b-aa7e06ea047c"
+      Hint: IsRequired
+      Value: 0
+    - ID: "8793e277-505d-41b0-b6f6-95604b1063d2"
+      Hint: AttributeControlType
+      Value: DropdownList
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "321d2d86-261c-4c0f-a48b-f47db3ac2d27"
+    - ID: "9a4e48ae-3ad1-47b7-9c9a-aac66a1117a8"
+      Hint: Name
+      Value: Gift wrapping
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111102Z
+    - ID: "f8337dc8-6f49-43af-844c-cbfcbd43ea64"
+      Hint: Id
+      Value: 1

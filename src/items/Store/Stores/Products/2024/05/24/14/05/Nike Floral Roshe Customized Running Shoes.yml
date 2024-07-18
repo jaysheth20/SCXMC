@@ -1,0 +1,67 @@
+﻿---
+ID: "9cadd77f-1457-44eb-81ff-3a5e86e0ad8c"
+Parent: "a7cc7fa2-eef3-4abd-8192-68acb21d9f27"
+Template: "f1cc134b-91d0-4984-843f-73bdfff2582c"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/Nike Floral Roshe Customized Running Shoes
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11711da6-4ad0-4894-9e40-44e4af860a48"
+      Hint: SKU
+      Value: NK_FRC_RS
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140523Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "7870f8c4-9e2b-4ea9-8c73-36c052ab3b2e"
+      Hint: InventoryMethod
+      Value: ManageStock
+    - ID: "7939dda2-9deb-4410-bed0-1a9c0b1960ef"
+      Hint: FreeShipping
+      Value: 0
+    - ID: "8303a53a-a87a-4d47-9d6b-3ad3871aa638"
+      Hint: FullDescription
+      Value: <p>Each Rosh Run is personalized and exclusive, handmade in our workshop Custom. Run Your Rosh creations born from the hand of an artist specialized in sneakers, more than 10 years of experience.</p>
+    - ID: "83abb57c-bae8-46a0-ac31-4d32f1291edd"
+      Hint: Categories
+      Value: "{38F96AC2-7894-41BE-B654-751CD4458374}"
+    - ID: "8b5a07d9-d62b-4111-8cdc-192ad48a3187"
+      Hint: ShortDescription
+      Value: When you ran across these shoes, you will immediately fell in love and needed a pair of these customized beauties.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6c218fa-29b0-4f31-92cb-10c9d31c96c6"
+    - ID: "983e66a6-e2fe-42b3-949f-b11d00eaf403"
+      Hint: Manufacturers
+      Value: "{B6E0CBE8-342A-4B7C-A4A9-D0BD32D71A3C}"
+    - ID: "b035e599-4a90-4e6d-92b8-c100703f3822"
+      Hint: ProductId
+      Value: 24
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141038Z
+    - ID: "dd065948-be66-4e11-a230-8837fca7a404"
+      Hint: StockQuantity
+      Value: In stock
+    - ID: "eea8521d-8877-45ba-9743-448d4e23d1ad"
+      Hint: ProductName
+      Value: Nike Floral Roshe Customized Running Shoes
+    - ID: "f8cf5733-377a-4955-ad44-1c5311f7956c"
+      Hint: Price
+      Value: $40.00
+    - ID: "fe85197b-46e1-46ad-add5-16ca36dfb64f"
+      Hint: ShippingEnabled
+      Value: 1

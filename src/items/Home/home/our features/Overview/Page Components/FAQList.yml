@@ -1,0 +1,37 @@
+﻿---
+ID: "128c0b9f-8af0-4d48-9de5-1816a8f45095"
+Parent: "453956c5-bf2f-45ed-b327-35256da91441"
+Template: "91329423-b290-4b06-8c86-d0d2a1c68690"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/FAQList"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4D53E2AE-FF1B-46EB-B996-53C67B267B10}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T072744Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "62263ca3-9606-4abf-82cc-8e22eb69f035"
+    - ID: "aaf2385b-edc8-4802-bc1d-2baf74e99fbd"
+      Hint: Heading
+      Value: "FAQ on Headless e-Commerce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d14b693b-c5b2-4ae8-b712-1b21dbf9dbe1"
+      Hint: FAQList
+      Value: |
+        {2EF76455-49E4-4620-B292-0D65A7A2DB57}
+        {3F9B4F75-9C2B-4DD5-8BC3-19DD7AC1E8D5}
+        {D0DFE0EF-C801-41E3-A189-586B627DBD2B}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T095902Z

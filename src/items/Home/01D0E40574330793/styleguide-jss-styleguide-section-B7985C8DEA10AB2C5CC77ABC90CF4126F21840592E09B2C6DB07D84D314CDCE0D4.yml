@@ -1,0 +1,57 @@
+﻿---
+ID: "cdfc449d-65cb-5947-92df-c2c17f5d143c"
+Parent: "16a383f1-58be-5406-a1bc-0cba816f2e1c"
+Template: "d1f95077-4db7-536d-ad4d-7cf4efcb23cc"
+Path: "/sitecore/content/sitecore-jss-app/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03ec99b7-78cf-5530-8eb6-99ef2f2bb5a9"
+      Hint: sharedContentList
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114710Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bae20a82-4233-4259-8c1b-9268b67a5cd9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8a731cc-fdc7-5496-83b9-5ba86edb7ec7"
+      Hint: heading
+      Value: Content List
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T085810Z
+    - ID: "dc8134ff-b350-5d60-af8c-14dbbd195a56"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "f7f8db9c-bc1f-56de-828f-d09385d390c7"
+      Hint: localContentList
+      Value: |
+        {A7C73DF1-53E3-51D1-B63E-C0D148301F82}
+        {FF223AA4-03C3-51FA-898B-FDE1FB61234F}

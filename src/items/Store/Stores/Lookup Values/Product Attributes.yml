@@ -1,0 +1,23 @@
+﻿---
+ID: "7f230758-6ede-4457-b533-ac947a66c7fc"
+Parent: "0b19ac6a-d2c9-4fd1-a60a-53bffd358b38"
+Template: "4c292959-4fd3-4d84-ac6a-c80d635b88ee"
+Path: /sitecore/Stores/Lookup Values/Product Attributes
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T141914Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27ca5287-43e1-4457-a022-502396b426b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T130814Z

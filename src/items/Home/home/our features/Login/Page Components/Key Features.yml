@@ -1,0 +1,31 @@
+﻿---
+ID: "096f12f0-cf10-4f08-a441-a5442cb94818"
+Parent: "b842746e-98cc-438e-8239-1dfaa8179031"
+Template: "46dcb486-99ad-4f54-b634-a23238b9a400"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Login/Page Components/Key Features"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FC5463C9-3080-447F-AEBF-0EEF228A2FDF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T071306Z
+    - ID: "58ba241c-fddf-4ae2-b2fb-fc31b9274bc6"
+      Hint: Heading
+      Value: Key Features
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f31e2edd-74ad-46b3-a639-76590645de86"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T071306Z

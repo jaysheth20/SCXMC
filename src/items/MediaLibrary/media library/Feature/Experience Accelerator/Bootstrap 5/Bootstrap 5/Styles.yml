@@ -1,0 +1,20 @@
+﻿---
+ID: "de711940-5e28-4281-ba06-b78e550be69d"
+Parent: "73953b64-b148-476c-a7e0-c5e7cbd3ca2c"
+Template: "9c0dac28-08aa-4b44-bc21-53363206f6a5"
+Path: /sitecore/media library/Feature/Experience Accelerator/Bootstrap 5/Bootstrap 5/Styles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210219T112150Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83abf55e-8cbd-4d5b-8bbb-72816e6f9c53"

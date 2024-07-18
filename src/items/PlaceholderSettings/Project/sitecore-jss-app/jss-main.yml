@@ -1,0 +1,64 @@
+﻿---
+ID: "b05cadbf-0e62-5b54-b47f-2a91012948af"
+Parent: "02a31333-9ee3-5787-86ba-ae02399cebeb"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-jss-app/jss-main"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "jss-main"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {744EA022-6D8B-5A5B-AB95-805A0E6AAD36}
+    {32018B61-F67C-5CB1-983D-641EFAF5378E}
+    {30690D82-EF43-51D7-9FF6-60AFC806F135}
+    {B1FF814B-151B-5A49-A113-85DC8DDD0E0D}
+    {5F7050AF-A143-4813-9AF2-686DE549B1C9}
+    {8BFFB19E-B3B2-4A24-87F5-DCF7CD39E17D}
+    {7BAC6DC2-19E5-41CC-8E44-F53A87A400FD}
+    {4701A196-FE30-4FAB-A76D-3DD8282C9E0B}
+    {22DC13BE-E2E0-4024-A603-BA38DEF95F95}
+    {4DC7A19B-F44D-44EE-87FF-4F620F30FFE1}
+    {908805FB-0729-426E-863F-B0C5512868EB}
+    {E49AD432-368B-4E25-8B81-BE4C904AE25E}
+    {E0DCC504-D315-4196-9C8E-3F20AE61806D}
+    {72F8760C-403F-4DFB-A485-2267C86FD5BB}
+    {E86484CE-0421-4273-ABE9-890FAA34F440}
+    {B323CC5E-8969-4B62-8C72-DE90311FFB91}
+    {B1F891CD-A76D-4211-8EB7-B07279D76280}
+    {5A218541-E475-4DDE-81A3-E51E39C981F0}
+    {EF5B0405-30EB-4873-BA6A-441F1A0C3A6A}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Main
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114704Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "582edd41-669b-4a31-9dd3-3459d3d5e4fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T085732Z

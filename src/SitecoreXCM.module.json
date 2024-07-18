@@ -1,114 +1,156 @@
 {
-    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-    "namespace": "Project.SitecoreXMC",
-    "items": {
-      "includes": [
-        {
-          "name": "SyncChunk",
-          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Sync",
-          "scope": "ItemAndDescendants",
-          "database":"core"
-        },
-        {
-          "name": "SyncRibbons",
-          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/SV",
-          "scope": "ItemAndDescendants",
-          "database":"core"
-        },
-        {
-          "name": "SyncStrips",
-          "path":"/sitecore/content/Applications/Content Editor/Ribbons/Strips/Random sync",
-          "scope": "ItemAndDescendants",
-          "database":"core"
-        },
-        {
-            "name": "templatesProject",
-            "path": "/sitecore/templates/Project/SitecoreXMC",
-            "allowedPushOperations": "CreateUpdateAndDelete"
-        },
-        {
-          "name": "projectMediaFolders",
-          "path": "/sitecore/Media Library/Project/SitecoreXMC",
-          "rules": [
-            {
-              "path": "/shared",
-              "scope": "SingleItem",
-              "allowedPushOperations": "CreateOnly"
-            },
-            {
-              "path": "/<SITE_NAME>",
-              "scope": "SingleItem",
-              "allowedPushOperations": "CreateOnly"
-            }
-          ]
-        },
-        {
-          "name": "projectRenderings",
-          "path": "/sitecore/Layout/Renderings/Project/SitecoreXMC",
-          "scope": "ItemAndDescendants",
-          "allowedPushOperations": "CreateUpdateAndDelete"
-        },
-        {
-          "name": "projectPlaceholderSettings",
-          "path": "/sitecore/Layout/Placeholder Settings/Project/SitecoreXMC",
-          "allowedPushOperations": "CreateUpdateAndDelete"
-        },
-        {
-            "name": "modules",
-            "path": "/sitecore/system/Settings/Project/SitecoreXMC",
-            "allowedPushOperations": "CreateUpdateAndDelete"
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project",
+  "items": {
+    "includes": [
+      {
+        "name": "Home",
+        "path":"/sitecore/content/sitecore-jss-app/home",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Content",
+        "path":"/sitecore/content/sitecore-jss-app/Content",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Dictionary",
+        "path":"/sitecore/content/sitecore-jss-app/sitecore-jss-app Dictionary",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Layouts-Project",
+        "path":"/sitecore/layout/Layouts/Project",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Renderings-Feature",
+        "path":"/sitecore/layout/Renderings/Feature",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants",
+        "rules": [
+          {
+            "path": "/Experience Accelerator",
+            "scope": "Ignored"
           },
-        {
-          "name": "tenantRoot",
-          "path": "/sitecore/content/SitecoreXMC",
-          "scope": "SingleItem",
-          "allowedPushOperations": "CreateAndUpdate"
-        },
-        {
-          "name": "site",
-          "path": "/sitecore/content/SitecoreXMC/SitecoreXMC",
-          "rules": [
-            {
-              "path": "/home",
-              "scope": "ItemAndDescendants",
-              "allowedPushOperations": "CreateOnly"
-            },
-            {
-              "path": "/Media",
-              "scope": "ItemAndChildren",
-              "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-              "path": "/Data",
-              "scope": "ItemAndChildren",
-              "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-              "path": "/Dictionary",
-              "scope": "ItemAndChildren",
-              "allowedPushOperations": "CreateOnly"
-            },
-            {
-              "path": "/Presentation",
-              "scope": "ItemAndDescendants",
-              "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-              "path": "/Settings/Site Grouping",
-              "scope": "ItemAndDescendants",
-              "allowedPushOperations": "CreateOnly"
-            },
-            {
-              "path": "/Settings",
-              "scope": "ItemAndChildren",
-              "allowedPushOperations": "CreateAndUpdate"
-            },
-            {
-              "path": "*", 
-              "scope": "Ignored"
-            }
-          ]
-        }
-      ]
-    }
+          {
+            "path": "/JSS Experience Accelerator",
+            "scope": "Ignored"
+          }]
+      },
+      {
+        "name": "Renderings-Project",
+        "path":"/sitecore/layout/Renderings/Project",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "PlaceholderSettings",
+        "path":"/sitecore/layout/Placeholder Settings/Project",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "MediaLibrary",
+        "path":"/sitecore/media library",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants",
+        "rules": [
+          {
+            "path": "/Experience Explorer",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/Foundation",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/System",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/Base Themes",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/Themes",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "Branches-Feature",
+        "path":"/sitecore/templates/Branches/Feature/Our Features",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Templates-SVCommerce",
+        "path":"/sitecore/templates/SVCommerce",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Templates-Feature",
+        "path":"/sitecore/templates/Feature",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants",
+        "rules": [
+          {
+            "path": "/Experience Accelerator",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/JSS Experience Accelerator",
+            "scope": "Ignored"
+          }]
+      },
+      {
+        "name": "Templates-Project",
+        "path":"/sitecore/templates/Project",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "Store",
+        "path":"/sitecore/Stores",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "APIKeys",
+        "path":"/sitecore/system/Settings/Services/API Keys",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "SyncChunk",
+        "path":"/sitecore/content/Applications/Content Editor/Ribbons/Chunks/SV Commerce Master Sync",
+        "scope": "ItemAndDescendants",
+        "database":"core"
+      },
+      {
+        "name": "SyncRibbons",
+        "path":"/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/Sv Commerce",
+        "scope": "SingleItem",
+        "database":"core"
+      },
+      {
+        "name": "SyncStrips",
+        "path":"/sitecore/content/Applications/Content Editor/Ribbons/Strips/SV Commerce",
+        "scope": "ItemAndDescendants",
+        "database":"core"
+      },
+      {
+        "name": "Launchpad-Buttons",
+        "path":"/sitecore/client/Applications/Launchpad/PageSettings/Buttons/SVCommerce",
+        "scope": "ItemAndDescendants",
+        "database":"core"
+      }
+    ]
   }
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "07368823-29a2-4aee-b5a6-6f28b0769d59"
+Parent: "c3344309-2d01-4cc0-8ee9-25e9882fd090"
+Template: "c3344309-2d01-4cc0-8ee9-25e9882fd090"
+Path: /sitecore/templates/Project/svstore/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T052333Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "63eeb335-6644-426d-93ec-a0288c57780e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240327T052333Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "b757f4c0-af52-4ab9-aa36-6be0522d6135"
+Parent: "222a3a52-cd8a-478a-bc6c-ca0419ffea70"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Feature Benefits/Increased flexibility and agility"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T110736Z
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: Increased flexibility and agility
+    - ID: "811a17b1-df81-4134-97e5-a7f8014e44ed"
+      Hint: Description
+      Value: |
+        <span style="color: #383e4d; background-color: #ffffff;">Headless commerce platforms can adopt new technologies as they emerge, and do it quickly. Due to their high customization rates, they are perfect for scaling up and experimenting without harming back-end functions. A marketing campaign can be launched across multiple channels without time-consuming coding, optimization, and adaptation.</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2229cd2c-0550-46ac-a3c8-4024a7f33a9e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T110748Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "8bddfdfb-45a1-4bf6-9951-d38189532f48"
+Parent: "06cd9940-914b-4c63-b845-909fe584cac4"
+Template: "f30c429e-01cb-4f69-b2f0-1cb3c5ab40bc"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Contact/Hr Gmail"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1688aefb-43d7-4595-a5e6-f29082ecf5d9"
+      Hint: Link
+      Value: "<link text='whitehorse9021@gmail.com' linktype='mailto' style='' url='mailto:whitehorse9021@gmail.com'  title='' />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T121841Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d836834-817d-4078-88ff-6255c6caf1b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T123944Z
+    - ID: "e9005b1e-a413-4f01-87eb-0ef1d1abc06e"
+      Hint: Name
+      Value: whitehorse9021@gmail.com

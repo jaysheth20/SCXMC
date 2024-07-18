@@ -1,0 +1,42 @@
+﻿---
+ID: "222a3a52-cd8a-478a-bc6c-ca0419ffea70"
+Parent: "453956c5-bf2f-45ed-b327-35256da91441"
+Template: "7ad725c2-24f4-4821-9231-8d47f8fb007e"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Feature Benefits"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4F5F9D75-F89F-48D4-A1D0-84F68D9795A4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T072745Z
+    - ID: "35e8a0df-d9f4-4fa7-85c8-86e3c5c4fd45"
+      Hint: List
+      Value: |
+        {D5C85D5E-E49A-4BF1-B548-57FA5E5B4BC6}
+        {8F296A34-A6BA-46AD-AD84-74F1A8735148}
+        {B757F4C0-AF52-4AB9-AA36-6BE0522D6135}
+        {E9A78C02-3249-41A4-8ED2-050AF0607FBC}
+    - ID: "74bb88cf-0f71-49cd-b174-85b89fabb3ff"
+      Hint: Heading
+      Value: Top 4 benefits of headless commerce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a288ee39-ee20-467f-a2b2-9149112e86e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d2bb8a90-edb4-452d-9782-bd82ac28d05a"
+      Hint: Description
+      Value: |
+        <span style="color: #383e4d; background-color: #ffffff;">By not having any UI constraints and scalability limitations, a headless eCommerce platform helps developers meet the business needs, without worrying about back-end modifications. Here's the list of major benefits you shouldn't waste:</span>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T111003Z

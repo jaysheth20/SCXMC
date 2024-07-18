@@ -1,0 +1,43 @@
+﻿---
+ID: "3ba44881-3e9c-4705-9caa-72426cebf33d"
+Parent: "663b1dd8-f56c-4094-a7a8-638e3f458b3b"
+Template: "37198cf8-fa6b-4ec3-9acb-d0fb9bfddf17"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Countries/United Kingdom of Great Britain and Northern Ireland/West Midlands"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T100509Z
+    - ID: "4518db5a-caeb-402f-bd4e-d1ee5cdc6cf4"
+      Hint: Display order
+      Value: 1
+    - ID: "45fbdb82-86b0-4f14-a9f7-55b95bd4960a"
+      Hint: Published
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9287a57b-6a3b-4853-b2d0-0a2e1fc5d881"
+    - ID: "94b03d04-ed17-460f-9f1f-013bf7ae8fbc"
+      Hint: Id
+      Value: 676
+    - ID: "a60488e4-531d-4018-8a13-1a6728b0fe91"
+      Hint: Name
+      Value: West Midlands
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T100509Z

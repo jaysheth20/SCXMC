@@ -1,0 +1,37 @@
+﻿---
+ID: "f6190912-46e4-546b-b36f-094f7dc1621d"
+Parent: "59cbc83d-6c76-5fa7-9284-f0f3a80da3fa"
+Template: "d9366724-6739-5695-89d6-39375ba25d03"
+Path: "/sitecore/content/sitecore-jss-app/home/styleguide/Page Components/styleguide-jss-styleguide-section-B73482E131E5A083D77A50554BC74A4758E29636DF6824F6E2F272EE778C28A095/styleguide-jss-styleguide-section-B75151F05CFDC4CAFFE44E5BAED9D59BEA82565EC11CE75B7DEF3634495EC1DAB7"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ItemLink-10-item-0"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114710Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acfb0c15-ddce-45d5-bf41-688e4f964708"
+    - ID: "8f3b8162-286e-5464-a8fe-b24328aaedfd"
+      Hint: textField
+      Value: Referenced item textField
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240327T114710Z

@@ -1,0 +1,44 @@
+﻿---
+ID: "3b122d89-7560-4f98-84c7-020e7c958b10"
+Parent: "453956c5-bf2f-45ed-b327-35256da91441"
+Template: "a58162c7-9343-4456-aeb9-085a45b83454"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Topic"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FFFB84D6-423F-480E-BD8E-C22EDE2DEE85}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "138b4a35-1042-4b15-86e7-ebe58632fac7"
+      Hint: ImagePosition
+      Value: Bottom
+    - ID: "251a2957-3dd8-4ded-b794-c9cc18f88106"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2C85BBF-9FF9-447D-AF80-19F708D0D39A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T072745Z
+    - ID: "6e1743ff-2bb0-45f8-86a9-69915c2b8484"
+      Hint: Description
+      Value: |
+        <p class="feature-part-text" style="color: #383e4d; background-color: #ffffff; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; line-height: 27px;">Headless commerce software is an architectural pattern that separates the front-end (the head) and the back-end (the body) of an eCommerce application. This &ldquo;decoupling&rdquo; allows for more customization and flexibility in the design, i.e. the storefront can be updated or edited without interfering with the back-end.</p>
+        <p class="feature-part-text" style="color: #383e4d; background-color: #ffffff; margin: 0px 0px 20px; padding: 0px; line-height: 27px;">Developers can utilize any front-end technology of their choice (popular third-party CMS, mobile apps, IoT devices, or custom front-end solutions) to create personalized content experiences, and plug into the nopCommerce platform on the back-end to manage the logic and function layers of the commerce website.</p>
+        <p class="feature-part-text" style="color: #383e4d; background-color: #ffffff; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; line-height: 27px;">Typical headless eCommerce architecture makes use of an application programming interface (API) via a RESTful system to deliver and provide content. The official&nbsp;<a href="https://www.nopcommerce.com/web-api" style="color: #25c8e0; background-color: transparent; margin: 0px; padding: 0px;">Web API plugin</a>&nbsp;from the nopCommerce team allows developers to interact with such third-party services as popular CMS, ERPs, PIMs, POS, custom front-end solutions, or mobile apps using REST. There are more than 1.100 back-end and front-end methods available.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed3f9a0d-b924-40a5-8bb0-8f17d7425b5f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T100424Z
+    - ID: "f7b01856-5956-418f-a039-b0409aeecd6f"
+      Hint: Heading
+      Value: "What is headless eCommerce?"

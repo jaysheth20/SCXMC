@@ -1,0 +1,67 @@
+﻿---
+ID: "6f2fc975-1758-4322-8f2c-b57b36487267"
+Parent: "0b2e961b-94f3-410b-8bda-191251cdf98b"
+Template: "65710310-e588-4359-82eb-14866047918f"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Currencies/US Dollar"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "083e41de-be70-4a4c-865a-c04f94cb0ac3"
+      Hint: Currency code
+      Value: USD
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T100625Z
+    - ID: "38c92da4-8fed-4509-96a3-d49e8a073ea9"
+      Hint: Display locale
+      Value: "en-US"
+    - ID: "42a777f5-0fcb-411e-a679-47b4c5c70565"
+      Hint: Name
+      Value: US Dollar
+    - ID: "4b81ebcc-5d1f-4465-b28c-5d394fec6c03"
+      Hint: Rounding type
+      Value: Rounding001
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "66090eb7-dde4-41ec-8215-6697ad6053bb"
+      Hint: Published
+      Value: 1
+    - ID: "7f614239-6284-4574-b405-1526ee94dc33"
+      Hint: RoundingTypeId
+      Value: 0
+    - ID: "88610fcb-9dc4-43f8-a764-867590a88736"
+      Hint: Id
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "635e52d1-1eec-416c-a6b6-375c2f63baa2"
+    - ID: "ac697858-4804-440e-930a-599e5a9b7741"
+      Hint: Rate
+      Value: 1.0000
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "cf71a90c-fdf9-42ef-956a-da7d123717a2"
+      Hint: Symbol
+      Value: $
+    - ID: "d68f0850-6e22-442c-bb39-4cfa24069a3a"
+      Hint: Limited to stores
+      Value: 0
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T100625Z
+    - ID: "e06ba5ae-f862-447e-96e1-1ef925c0bb93"
+      Hint: Display order
+      Value: 0
+    - ID: "f3321ffd-46a9-4355-aa94-98199944ffbc"
+      Hint: Created on
+      Value: 20240103T070709

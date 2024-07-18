@@ -1,0 +1,43 @@
+﻿---
+ID: "e97aad8f-9c36-4b02-abf8-679e37f0def6"
+Parent: "453956c5-bf2f-45ed-b327-35256da91441"
+Template: "a58162c7-9343-4456-aeb9-085a45b83454"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Traditional eCommerce headless eCommerce"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "138b4a35-1042-4b15-86e7-ebe58632fac7"
+      Hint: ImagePosition
+      Value: Bottom
+    - ID: "251a2957-3dd8-4ded-b794-c9cc18f88106"
+      Hint: Image
+      Value: |
+        <image mediaid="{198FA012-BCA5-4073-BB2B-13A895DFB3B4}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T110035Z
+    - ID: "6e1743ff-2bb0-45f8-86a9-69915c2b8484"
+      Hint: Description
+      Value: |
+        <div class="feature-part" style="color: #383e4d; margin: 0px; padding: 0px 60px 50px;">
+        <p class="feature-part-text" style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; line-height: 27px;">In traditional commerce, the website's front-end and back-end are interdependent. Thanks to a monolithic architecture, it is fast to set up and launch. However, this hinders customization and pessimizes the customer experience. Any possible updates to the ecommerce application become a headache because of the tight coupling. If the store owner decides to add a new sales channel, it'll require significant adjustments to the back-end.</p>
+        <p class="feature-part-text" style="margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; line-height: 27px;">In the mobile-driven era, this approach can't meet customer expectations. A headless e-commerce solution, on the other hand, allows to provide a dynamic customer experience and keep up with the latest technology and marketing trends. It aims at satisfying ever-growing demands for an exceptional user experience.</p>
+        </div>
+        <div class="feature-part" style="color: #383e4d; margin: 0px; padding: 0px 60px 50px;">
+        <picture style="margin: 0px; padding: 0px;"><source srcset="/images/webp/features/headless-ecommerce/2a-mobile.webp" type="image/webp" media="(max-width: 767px)" style="margin: 0px; padding: 0px;"></source><source srcset="/images/features/headless-ecommerce/2a-mobile.png" type="image/png" media="(max-width: 767px)" style="margin: 0px; padding: 0px;"></source><source srcset="/images/webp/features/headless-ecommerce/2a-tablet.webp" type="image/webp" media="(max-width: 1279px)" style="margin: 0px; padding: 0px;"></source><source srcset="/images/features/headless-ecommerce/2a-tablet.png" type="image/png" media="(max-width: 1279px)" style="margin: 0px; padding: 0px;"></source><source srcset="/images/webp/features/headless-ecommerce/2a.webp" type="image/webp" style="margin: 0px; padding: 0px;"></source></picture>
+        </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ba7d5b7-63e8-42e4-984f-482ab6377607"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T101313Z
+    - ID: "f7b01856-5956-418f-a039-b0409aeecd6f"
+      Hint: Heading
+      Value: Traditional eCommerce headless eCommerce

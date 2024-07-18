@@ -1,0 +1,31 @@
+﻿---
+ID: "92d44c7a-457b-48af-ac14-b914f23ba428"
+Parent: "b842746e-98cc-438e-8239-1dfaa8179031"
+Template: "a58162c7-9343-4456-aeb9-085a45b83454"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Login/Page Components/Topic"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FFFB84D6-423F-480E-BD8E-C22EDE2DEE85}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T071306Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33ac3b01-e3ff-4472-bc3a-bf0de21d764c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T071306Z
+    - ID: "f7b01856-5956-418f-a039-b0409aeecd6f"
+      Hint: Heading
+      Value: Topic

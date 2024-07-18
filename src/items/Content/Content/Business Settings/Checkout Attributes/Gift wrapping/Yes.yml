@@ -1,0 +1,35 @@
+﻿---
+ID: "b365a535-b96c-46ff-8a71-e467e763e644"
+Parent: "b804e207-a1a9-408a-b336-c835afe938f9"
+Template: "a2eeb069-44b6-4a39-8a39-9c14d2864528"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Checkout Attributes/Gift wrapping/Yes"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "063a84bc-db0c-4428-8b6b-7ce1ded0863b"
+      Hint: IsPreSelected
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111102Z
+    - ID: "546eff7a-8367-41cb-81c2-9ab537f3cef1"
+      Hint: Id
+      Value: 2
+    - ID: "74d78823-15fd-4ebd-b775-34c543890541"
+      Hint: Name
+      Value: Yes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "962c9bf8-40c2-4b75-8a20-8a50a9f91ff7"
+    - ID: "9ce0d03c-d4ea-4a31-9699-5b57a3f5fe20"
+      Hint: PriceAdjustment
+      Value: +$10.00
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111102Z

@@ -1,0 +1,40 @@
+﻿---
+ID: "ff9e75ec-acac-44f0-b1ce-fbbfa0a9f3f7"
+Parent: "4e6e4161-451a-4fed-8774-0ed6e65efb04"
+Template: "9f62ebd5-2280-4a35-be51-a210d831d687"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/SV Commerce Master Sync/Product Availability Ranges
+SharedFields:
+- ID: "4c2dedb4-40fb-4166-8221-c4dd3e914478"
+  Hint: Click
+  Value: "sync:syncproductavailabilityranges"
+- ID: "8e40ab40-8c83-4ff7-9d33-38ed9458de1e"
+  Hint: Icon
+  Value: business/32x32/chest.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240304T092104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8831b63-0d53-4426-b69a-bdd9106a1dab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Product Availability Ranges
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240328T104508Z

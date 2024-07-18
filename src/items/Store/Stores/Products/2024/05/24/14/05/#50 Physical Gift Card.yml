@@ -1,0 +1,61 @@
+﻿---
+ID: "ae58bdeb-9fe4-4788-8b5d-b39cd1464202"
+Parent: "a7cc7fa2-eef3-4abd-8192-68acb21d9f27"
+Template: "f1cc134b-91d0-4984-843f-73bdfff2582c"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/$50 Physical Gift Card
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11711da6-4ad0-4894-9e40-44e4af860a48"
+      Hint: SKU
+      Value: PG_CR_050
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140526Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "7870f8c4-9e2b-4ea9-8c73-36c052ab3b2e"
+      Hint: InventoryMethod
+      Value: DontManageStock
+    - ID: "7939dda2-9deb-4410-bed0-1a9c0b1960ef"
+      Hint: FreeShipping
+      Value: 1
+    - ID: "8303a53a-a87a-4d47-9d6b-3ad3871aa638"
+      Hint: FullDescription
+      Value: <p>Gift Cards must be redeemed through our site Web site toward the purchase of eligible products. Purchases are deducted from the GiftCard balance. Any unused balance will be placed in the recipient's GiftCard account when redeemed. If an order exceeds the amount of the GiftCard, the balance must be paid with a credit card or other available payment method.</p>
+    - ID: "83abb57c-bae8-46a0-ac31-4d32f1291edd"
+      Hint: Categories
+      Value: "{13DC7493-64EE-4894-B1F8-0EB0C5E01381}"
+    - ID: "8b5a07d9-d62b-4111-8cdc-192ad48a3187"
+      Hint: ShortDescription
+      Value: $50 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93d140e3-a05a-4887-b004-182cb2fc36f2"
+    - ID: "b035e599-4a90-4e6d-92b8-c100703f3822"
+      Hint: ProductId
+      Value: 44
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141039Z
+    - ID: "eea8521d-8877-45ba-9743-448d4e23d1ad"
+      Hint: ProductName
+      Value: $50 Physical Gift Card
+    - ID: "f8cf5733-377a-4955-ad44-1c5311f7956c"
+      Hint: Price
+      Value: $50.00
+    - ID: "fe85197b-46e1-46ad-add5-16ca36dfb64f"
+      Hint: ShippingEnabled
+      Value: 1

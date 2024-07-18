@@ -1,0 +1,64 @@
+﻿---
+ID: "aa97e08a-ed17-4f15-9248-6261f1c11802"
+Parent: "0e8ea6d1-86a1-4434-abe3-93e35bdf007c"
+Template: "40172274-da2f-47c4-bc26-d95c5f5bafdd"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Countries/Vietnam"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e450fc3-c7c4-4a9c-96bc-c3238e19aac6"
+      Hint: Name
+      Value: Vietnam
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T100354Z
+    - ID: "4f8a06b8-4dc5-49bb-a4a4-86289da43f29"
+      Hint: Two letter ISO code
+      Value: VN
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5644edc2-9a16-420c-b278-a3826aae3b1a"
+      Hint: Numeric ISO code
+      Value: 704
+    - ID: "5b32857d-1da2-4519-bf22-21fc48b49880"
+      Hint: Published
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d2a160b-c3ad-43e7-b5eb-df6e0b086dbe"
+    - ID: "95ce8234-ca71-46a5-a3c2-9fc6a59ba907"
+      Hint: Display order
+      Value: 100
+    - ID: "9c51e730-4fdf-436c-8291-69ee9b8296fc"
+      Hint: Id
+      Value: 242
+    - ID: "a4d8655f-a3ec-4f66-a997-aaf665138910"
+      Hint: Allow Shipping
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d215b4d7-31fe-4729-8c34-8cc6e2a21f07"
+      Hint: Three letter ISO code
+      Value: VNM
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T100354Z
+    - ID: "e9023c6b-13cf-4d18-b27c-f13d60f382cd"
+      Hint: Limited to stores
+      Value: 0
+    - ID: "eaa9aa7b-e970-45bb-af28-a22af3e74d83"
+      Hint: Subject to VAT
+      Value: 0
+    - ID: "f9cffb30-45e2-42ee-a5f4-16a4e912e371"
+      Hint: Allow Billing
+      Value: 1

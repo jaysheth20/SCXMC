@@ -1,0 +1,46 @@
+﻿---
+ID: "b28d7e8d-5a54-4a2c-a2d8-86d5120dbcfd"
+Parent: "c7c48de6-53e0-40b9-8e0b-e9f377461c51"
+Template: "36f6348a-cf3d-4f48-8891-160a24d90733"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Login"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4481315B-F8DA-48E7-8959-9EB477B8B6EE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b3fdb8d-58ff-48da-9da8-58a564e68787"
+      Hint: FeatureName
+      Value: Login
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T071306Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "3fa5560c-8582-4f53-82a4-f6aeb1bc0186"
+      Hint: FeatureIconCss
+      Value: "icon-login"
+    - ID: "50e0c6e5-f875-53c2-b98c-9b5b5a96705b"
+      Hint: pageTitle
+      Value: Login
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3a1cd37-598e-46fe-8ca6-38a69eea8f28"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T071336Z

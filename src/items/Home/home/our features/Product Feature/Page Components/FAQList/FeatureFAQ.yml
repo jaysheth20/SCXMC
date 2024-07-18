@@ -1,0 +1,31 @@
+﻿---
+ID: "69166ef9-f100-4dae-bc54-5764ade4d634"
+Parent: "056db155-03f2-47e9-9b6a-cac2e19cc682"
+Template: "730acfdf-9b8e-44d0-8918-f4e213533649"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Product Feature/Page Components/FAQList/FeatureFAQ"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1D50F42A-038A-4313-B61D-4E60FB5EE781}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T113953Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb309736-7b7d-4414-b6d6-5778d227c7e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T113953Z
+    - ID: "ea6ab5a2-f334-4dd7-b5a9-d96001213b40"
+      Hint: Question
+      Value: FeatureFAQ

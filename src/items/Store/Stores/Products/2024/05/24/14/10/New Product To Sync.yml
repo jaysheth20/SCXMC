@@ -1,0 +1,55 @@
+﻿---
+ID: "630fc07b-e567-4da1-b4cd-fb601623b375"
+Parent: "d478dd54-ef54-4b54-bf6c-44a0c8d093ab"
+Template: "f1cc134b-91d0-4984-843f-73bdfff2582c"
+Path: /sitecore/Stores/Products/2024/05/24/14/10/New Product To Sync
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T141039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7870f8c4-9e2b-4ea9-8c73-36c052ab3b2e"
+      Hint: InventoryMethod
+      Value: DontManageStock
+    - ID: "7939dda2-9deb-4410-bed0-1a9c0b1960ef"
+      Hint: FreeShipping
+      Value: 0
+    - ID: "83abb57c-bae8-46a0-ac31-4d32f1291edd"
+      Hint: Categories
+      Value: "{F55A87E5-5999-45F4-9C6A-F8F57581DE37}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94917264-9735-46b2-85cd-490ffcbd1097"
+    - ID: "983e66a6-e2fe-42b3-949f-b11d00eaf403"
+      Hint: Manufacturers
+      Value: "{222E44A6-F582-4FDA-9850-CDA859697696}"
+    - ID: "b035e599-4a90-4e6d-92b8-c100703f3822"
+      Hint: ProductId
+      Value: 48
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141039Z
+    - ID: "eea8521d-8877-45ba-9743-448d4e23d1ad"
+      Hint: ProductName
+      Value: New Product To Sync
+    - ID: "f8cf5733-377a-4955-ad44-1c5311f7956c"
+      Hint: Price
+      Value: $2.00
+    - ID: "fe85197b-46e1-46ad-add5-16ca36dfb64f"
+      Hint: ShippingEnabled
+      Value: 1

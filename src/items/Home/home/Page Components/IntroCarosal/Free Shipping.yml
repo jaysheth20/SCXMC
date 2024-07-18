@@ -1,0 +1,40 @@
+﻿---
+ID: "c2a28918-daa8-4878-9d2f-618470b66b98"
+Parent: "5d5baacf-43fc-44c9-a93f-b56875f180c1"
+Template: "29b911bb-fe6e-4ac5-9916-b59b2cc2d262"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/IntroCarosal/Free Shipping"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240419T061028Z
+    - ID: "3d7cf00f-1dc8-49ca-b643-6993d4a14a54"
+      Hint: IconCss
+      Value: "icon-shipping"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "70d21b57-11a5-4e20-8c0f-57676b0edaa5"
+      Hint: SubTitle
+      Value: On purchases over $199
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e8924c0-4ecf-42bc-88e3-7ecacacc9c76"
+    - ID: "b72702f5-a40b-4ecb-b30e-73a7ccd9093a"
+      Hint: Title
+      Value: Free Shipping
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240419T061052Z

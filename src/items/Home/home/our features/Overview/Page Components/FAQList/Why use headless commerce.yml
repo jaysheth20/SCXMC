@@ -1,0 +1,29 @@
+﻿---
+ID: "3f9b4f75-9c2b-4dd5-8bc3-19dd7ac1e8d5"
+Parent: "128c0b9f-8af0-4d48-9de5-1816a8f45095"
+Template: "730acfdf-9b8e-44d0-8918-f4e213533649"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/FAQList/Why use headless commerce"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T095752Z
+    - ID: "803e8a99-fb68-46b4-9a1a-bb60cb9eccda"
+      Hint: Answer
+      Value: "A B2C or B2B headless commerce platform allows you to deploy rapid updates to the front-end of your website without impacting its back-end. It helps businesses to think beyond the simple storefront and keep up with the speed of consumer technology: provide their customers with highly customized content, innovative fulfillment options, assisted sales alternatives, etc."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "540e810a-ab39-442c-ab08-68aeb4584a4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T095811Z
+    - ID: "ea6ab5a2-f334-4dd7-b5a9-d96001213b40"
+      Hint: Question
+      Value: "Why use headless commerce?"

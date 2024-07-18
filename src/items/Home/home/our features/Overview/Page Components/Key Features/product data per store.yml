@@ -1,0 +1,26 @@
+﻿---
+ID: "d2ab33ff-dab3-4496-98f9-6248ec16eeab"
+Parent: "a0c07aed-1263-4c98-bb0b-2d143d0c35c0"
+Template: "49bb78df-c027-49fe-8258-f357cf000d18"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Key Features/product data per store"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T112304Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9ea9378-02e5-4176-93e2-dbf545762268"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d0e76a44-b2d9-44d6-b368-181101a02911"
+      Hint: KeyFeature
+      Value: product data per store
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T112304Z

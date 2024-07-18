@@ -1,0 +1,26 @@
+﻿---
+ID: "1d50f42a-038a-4313-b61d-4e60fb5ee781"
+Parent: "4d53e2ae-ff1b-46eb-b996-53c67b267b10"
+Template: "730acfdf-9b8e-44d0-8918-f4e213533649"
+Path: /sitecore/templates/Branches/Feature/Our Features/OurFeature/$name/Page Components/FAQList/FeatureFAQ
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T062659Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "261b990c-ad26-4c89-bbe4-0f28e5369682"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T062659Z
+    - ID: "ea6ab5a2-f334-4dd7-b5a9-d96001213b40"
+      Hint: Question
+      Value: FeatureFAQ

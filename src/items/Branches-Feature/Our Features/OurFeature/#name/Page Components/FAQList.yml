@@ -1,0 +1,26 @@
+﻿---
+ID: "4d53e2ae-ff1b-46eb-b996-53c67b267b10"
+Parent: "2ec81cea-f26f-4304-bfeb-ef2cd6caf142"
+Template: "91329423-b290-4b06-8c86-d0d2a1c68690"
+Path: /sitecore/templates/Branches/Feature/Our Features/OurFeature/$name/Page Components/FAQList
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T062556Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "771823f1-a9a2-4d66-9713-445e9d13e284"
+    - ID: "aaf2385b-edc8-4802-bc1d-2baf74e99fbd"
+      Hint: Heading
+      Value: FAQList
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T062642Z

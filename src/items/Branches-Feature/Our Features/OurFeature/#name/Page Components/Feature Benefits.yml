@@ -1,0 +1,26 @@
+﻿---
+ID: "4f5f9d75-f89f-48d4-a1d0-84f68d9795a4"
+Parent: "2ec81cea-f26f-4304-bfeb-ef2cd6caf142"
+Template: "7ad725c2-24f4-4821-9231-8d47f8fb007e"
+Path: /sitecore/templates/Branches/Feature/Our Features/OurFeature/$name/Page Components/Feature Benefits
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T062219Z
+    - ID: "74bb88cf-0f71-49cd-b174-85b89fabb3ff"
+      Hint: Heading
+      Value: Feature Benefits
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85f52a43-3273-4b5a-acfa-407a52f3370b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T062219Z

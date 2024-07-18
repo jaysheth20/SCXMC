@@ -1,0 +1,34 @@
+﻿---
+ID: "510d5a15-d433-45b7-b34e-a53102f370e3"
+Parent: "dd65b116-2d12-41c9-af80-d58eef4e1db5"
+Template: "e9a310d6-9996-4c46-84b0-0ec175f87be3"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Bottom Description"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a6eed7c-5622-4d62-9ebc-5f5dcc09194c"
+      Hint: Text
+      Value: "<p>DESIGN BY WHITEHORSE - &copy; 2023. ALL RIGHTS RESERVED.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T131642Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4df8330-d3b3-45e3-8b44-114c97e7b150"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T131722Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "98ff1768-a5e0-4ea1-b76a-0c6637c5a55e"
+Parent: "a8376828-2ea4-419c-9024-8b4e288c931d"
+Template: "0d17fc3f-831e-4dc8-8dd3-585e3e92e79a"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Measure Dimension"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T095620Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1129f8ec-105e-48c7-9120-332a734db216"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T110451Z

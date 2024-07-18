@@ -1,0 +1,20 @@
+﻿---
+ID: "f7ebfa55-129b-43c4-88eb-e9d03d2e0c41"
+Parent: "899cbd6a-c2dc-4a53-b318-f4b7bd34cb0c"
+Template: "78086ca4-8985-45eb-8aa7-b2948d2a0e06"
+Path: /sitecore/media library/Feature/Experience Accelerator/Composites/OnPageEditing
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170911T100302Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a7f3d72-67e4-4081-8d01-b129f358d577"

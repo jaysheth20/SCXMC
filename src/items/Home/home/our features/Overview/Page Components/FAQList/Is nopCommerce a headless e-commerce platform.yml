@@ -1,0 +1,29 @@
+﻿---
+ID: "d0dfe0ef-c801-41e3-a189-586b627dbd2b"
+Parent: "128c0b9f-8af0-4d48-9de5-1816a8f45095"
+Template: "730acfdf-9b8e-44d0-8918-f4e213533649"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/FAQList/Is nopCommerce a headless e-commerce platform"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T095832Z
+    - ID: "803e8a99-fb68-46b4-9a1a-bb60cb9eccda"
+      Hint: Answer
+      Value: "Thanks to the Web API plugin, nopCommerce utilizes a headless approach. This means that store owners and merchants can use API calls via a RESTful system to deliver and provide content. The plugin is made to interact with third-party services like CMS, ERPs, PIMs, POS, custom front-end solutions, or mobile apps."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84f45051-811b-4a07-9e7d-55f4823e16fd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T095848Z
+    - ID: "ea6ab5a2-f334-4dd7-b5a9-d96001213b40"
+      Hint: Question
+      Value: "Is nopCommerce a headless e-commerce platform"

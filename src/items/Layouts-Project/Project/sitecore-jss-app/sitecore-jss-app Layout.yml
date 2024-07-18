@@ -1,0 +1,42 @@
+﻿---
+ID: "7acdb359-384c-5804-80a4-fa650b78f0fe"
+Parent: "99980e5d-b6fe-5601-8a25-d23cac7e4b51"
+Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
+Path: "/sitecore/layout/Layouts/Project/sitecore-jss-app/sitecore-jss-app Layout"
+SharedFields:
+- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
+  Hint: Placeholders
+  Value: |
+    {B05CADBF-0E62-5B54-B47F-2A91012948AF}
+    {42C82A94-543D-4313-8E7D-4F004CD592ED}
+    {BB452807-6B99-4211-9E48-3C8DB245FEF5}
+    {301C83D3-213D-44A8-8280-5CD62BA21193}
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114707Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32727ba3-fc4b-4214-94f0-191a1a539da9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T115400Z

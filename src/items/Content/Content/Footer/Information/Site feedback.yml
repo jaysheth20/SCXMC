@@ -1,0 +1,30 @@
+﻿---
+ID: "4961c63e-07be-4686-84ae-bbb3b72b7960"
+Parent: "7db79ee4-683f-4913-bcaf-f11fc518898b"
+Template: "f30c429e-01cb-4f69-b2f0-1cb3c5ab40bc"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Information/Site feedback"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1688aefb-43d7-4595-a5e6-f29082ecf5d9"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{5288D54B-295E-5FED-9225-D9A08F763234}" anchor="" target="" title="" linktype="internal" text="" url="/sitecore-jss-app/home" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T121750Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "177cb1f8-7d17-454c-a801-2bb687f6873f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240717T112554Z
+    - ID: "e9005b1e-a413-4f01-87eb-0ef1d1abc06e"
+      Hint: Name
+      Value: Site feedback

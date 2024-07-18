@@ -1,0 +1,43 @@
+﻿---
+ID: "ed972fdf-5203-431e-be25-f6aaff786cae"
+Parent: "6c2c8437-3844-406a-b691-860c49203b21"
+Template: "79c91809-dcd8-4631-b45a-555257fd702b"
+Path: /sitecore/Stores/Lookup Values/Languages/EN
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T114511Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "7a325082-1231-43b6-92ea-ce463fad65a2"
+      Hint: Id
+      Value: 1
+    - ID: "7dcb41cb-62b3-4175-9953-2cd97a18cb96"
+      Hint: Name
+      Value: EN
+    - ID: "8baa5965-b696-4794-ba68-762b542754dc"
+      Hint: UniqueSeoCode
+      Value: en
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16fac0c7-7608-47ed-a9ff-fc85e2a7b0c0"
+    - ID: "aa2f1f18-47f1-4618-a022-9adbc40853f5"
+      Hint: FlagImageFileName
+      Value: us.png
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T114511Z

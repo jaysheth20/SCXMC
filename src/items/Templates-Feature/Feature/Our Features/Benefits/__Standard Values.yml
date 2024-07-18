@@ -1,0 +1,34 @@
+﻿---
+ID: "8a2393f4-7035-496b-bbb6-047ff60c2114"
+Parent: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: /sitecore/templates/Feature/Our Features/Benefits/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T060415Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa1df951-b6ea-4ce0-92d0-ba70243d6fc4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T060422Z

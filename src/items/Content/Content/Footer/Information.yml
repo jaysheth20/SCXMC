@@ -1,0 +1,34 @@
+﻿---
+ID: "7db79ee4-683f-4913-bcaf-f11fc518898b"
+Parent: "dd65b116-2d12-41c9-af80-d58eef4e1db5"
+Template: "71fb8ab7-a0b8-4ccc-9bb3-e58971ed5910"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Information"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T121623Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c72e26d0-3579-437a-bf7a-77fb9e93d536"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T122452Z
+    - ID: "f64fcfc3-59da-46ce-88ae-68bcf78ec4f9"
+      Hint: Links
+      Value: |
+        {0A7D1E86-A59B-4FB7-8685-A494FD8C782A}
+        {4961C63E-07BE-4686-84AE-BBB3B72B7960}
+        {4DB4F012-F5B4-4092-8442-04385634A661}
+        {21B2FB66-CBFD-459F-9E37-E51C15D44B47}
+        {5BC6AD77-490D-4ED3-866F-47DA51CAA856}
+    - ID: "f72b1b7f-eb56-4c99-bcaa-61ab5953a9ca"
+      Hint: SectionHeader
+      Value: Information

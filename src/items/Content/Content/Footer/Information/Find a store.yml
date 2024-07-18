@@ -1,0 +1,26 @@
+﻿---
+ID: "21b2fb66-cbfd-459f-9e37-e51c15d44b47"
+Parent: "7db79ee4-683f-4913-bcaf-f11fc518898b"
+Template: "f30c429e-01cb-4f69-b2f0-1cb3c5ab40bc"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Information/Find a store"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T121645Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da28d2fa-46d9-4576-960d-0b206312c542"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T121645Z
+    - ID: "e9005b1e-a413-4f01-87eb-0ef1d1abc06e"
+      Hint: Name
+      Value: Find a store

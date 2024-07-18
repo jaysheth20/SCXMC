@@ -1,0 +1,38 @@
+﻿---
+ID: "fdfa8a89-72de-4b8a-be2a-63af05c1a354"
+Parent: "d2e8495c-467b-4e23-ba94-b2a07f3d0456"
+Template: "d2e8495c-467b-4e23-ba94-b2a07f3d0456"
+Path: /sitecore/templates/Project/Common/Enum/__Standard Values
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211029T183927Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\drupani
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\drupani
+    - ID: "5e92be4c-c038-4362-99e6-a27ca732f28b"
+      Hint: Enum Description
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9c2a50e-6c5b-4e59-a31b-e8d1265c2682"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240129T104817Z

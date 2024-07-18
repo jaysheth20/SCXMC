@@ -1,0 +1,37 @@
+﻿---
+ID: "3a047c6d-3b23-4b6a-938b-b5f0e4f7086a"
+Parent: "1fa2c459-2191-4f2d-a476-04203eff73c6"
+Template: "d2e8495c-467b-4e23-ba94-b2a07f3d0456"
+Path: "/sitecore/content/sitecore-jss-app/Content/Global Settings/Product attributes/Custom Text"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T104756Z
+    - ID: "497eb0f7-5c3d-4e3a-b974-693e72a8b849"
+      Hint: Enum Id
+      Value: 3
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e92be4c-c038-4362-99e6-a27ca732f28b"
+      Hint: Enum Description
+      Value: Custom Text
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48e7d0df-a3b5-446f-a09e-d15e50c05bec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240129T104804Z

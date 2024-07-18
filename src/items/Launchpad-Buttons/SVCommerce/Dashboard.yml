@@ -1,0 +1,47 @@
+﻿---
+ID: "4e62a5ee-12d3-4f73-810d-9792cdb2ca20"
+Parent: "4651714f-91e2-44d8-b41a-c217411d5798"
+Template: "d4c7f5f9-8977-4e0c-b6ce-28ae8e0753e2"
+Path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/SVCommerce/Dashboard
+SharedFields:
+- ID: "044e3fdb-22ae-4e6c-b50e-2abdfbabd338"
+  Hint: Link
+  Value: "https://nopstore/admin"
+- ID: "d25b56d4-23b6-4462-be25-b6a6d7f38e13"
+  Hint: Icon
+  Value: /~/icon/office/32x32/market_stand.png
+- ID: "dc0c067b-8d1a-4aca-9852-e6b29139a63d"
+  Hint: OpenNewTab
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "012a2076-c940-435e-82f3-910e7af891e2"
+      Hint: OpenIframe
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240527T051711Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be971a67-a07a-4782-a355-bbcdd9fe13fe"
+    - ID: "aa4a4643-5bfc-45a7-b9d9-5183a5211d99"
+      Hint: Text
+      Value: Dashboard
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240527T071851Z

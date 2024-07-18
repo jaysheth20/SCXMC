@@ -1,0 +1,24 @@
+﻿---
+ID: "0ea15b6a-ba98-4f76-acba-71e102abd06f"
+Parent: "08c31f5f-7420-42b1-841b-9bbe75652bb6"
+Template: "b746d24c-8767-47e6-a092-aebea4ef647f"
+Path: /sitecore/media library/Feature/Experience Accelerator/Bootstrap/Bootstrap
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bootstrap 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161215T152402Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "877dcc73-7593-4939-b4b0-ffc08d53fa4a"

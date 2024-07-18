@@ -1,0 +1,34 @@
+﻿---
+ID: "7162e8e7-62a6-48ed-b0f5-e36921e78f99"
+Parent: "8c602b9c-9de3-42bb-aef2-92ed4c263ec1"
+Template: "8c602b9c-9de3-42bb-aef2-92ed4c263ec1"
+Path: /sitecore/templates/Project/Common/Image Position/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T061304Z
+    - ID: "439fe57a-7e55-4cd8-82de-a5e490fb69ec"
+      Hint: Position
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eac15f47-5175-411e-9b91-ee0c8b8f86e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T061310Z

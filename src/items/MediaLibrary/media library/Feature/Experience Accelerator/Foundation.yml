@@ -1,0 +1,16 @@
+﻿---
+ID: "de95b47a-53b6-4f54-a2b0-12b5a7e6a0f3"
+Parent: "0d9bee9b-e60b-48bd-b284-f5f74d4757b3"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/Experience Accelerator/Foundation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161221T154551Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6506ae9-43b3-4270-9286-eb35ba1f7f02"

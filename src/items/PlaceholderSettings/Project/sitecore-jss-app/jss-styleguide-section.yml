@@ -1,0 +1,59 @@
+﻿---
+ID: "27f2c278-ae79-59e6-b949-105404b2b8b7"
+Parent: "02a31333-9ee3-5787-86ba-ae02399cebeb"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/sitecore-jss-app/jss-styleguide-section"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "jss-styleguide-section"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 1
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {19922E61-E8F0-5B34-B5ED-0576225ADF27}
+    {A816589A-293C-51D2-B2C8-465A1E838079}
+    {48D890BD-CF49-54B8-8A16-D22E9A9B5B44}
+    {998AB663-AC22-5466-B348-6C6A3E5BCB39}
+    {8EB73E07-9F02-56EB-AAC0-7DDC180EF68F}
+    {EA831516-4751-5475-8FD6-B4A2341605A1}
+    {D32D0AFC-A44F-58E0-BC84-7A2708D0D4A5}
+    {8AD65933-C4FD-5076-9EFC-9DB680E3E5F7}
+    {B8F249AA-17B7-5BC8-90D6-BE50ADDDAFEC}
+    {96068AEB-9064-5223-816D-E31CF648FF07}
+    {7D48883C-FCA3-54FC-A30A-4A672013E74B}
+    {7CB471A9-5CE0-5C39-ACA2-C5CF6780DF83}
+    {071D6A3F-C4EA-5967-9BDD-B1833239385D}
+    {7FFF7659-2ABA-5CC7-8C5E-AA97DBC5E20C}
+    {1A529A9E-FE3A-55DA-8DC3-8B61CF8AF2F8}
+    {A004F87D-D11B-5297-BC37-B8195E54881B}
+    {8FA7C7BA-1954-53F5-8EB0-9B96024DCC55}
+    {E61A0690-7C09-54C0-97E7-51F8C778C50D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114704Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccc4d439-8790-4b48-98a9-82fde8efae8c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240327T114713Z

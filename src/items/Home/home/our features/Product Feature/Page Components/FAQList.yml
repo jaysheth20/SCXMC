@@ -1,0 +1,31 @@
+﻿---
+ID: "056db155-03f2-47e9-9b6a-cac2e19cc682"
+Parent: "555b4296-66bd-4741-90f1-8b73b1554a77"
+Template: "91329423-b290-4b06-8c86-d0d2a1c68690"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Product Feature/Page Components/FAQList"
+BranchID: "570be036-290e-4e39-a6a1-19b42b429d7b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4D53E2AE-FF1B-46EB-B996-53C67B267B10}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T113953Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0caab332-40b6-4f5b-a840-521bbfb27e39"
+    - ID: "aaf2385b-edc8-4802-bc1d-2baf74e99fbd"
+      Hint: Heading
+      Value: FAQList
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T113953Z

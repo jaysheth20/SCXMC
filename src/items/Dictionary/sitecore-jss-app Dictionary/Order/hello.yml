@@ -1,0 +1,13 @@
+﻿---
+ID: "772f1082-b7f7-452f-872e-baf89b68770f"
+Parent: "8808aa52-8374-46aa-aadf-077b94f6f733"
+Template: "6d1cd897-1936-4a3a-a511-289a94c2a7b1"
+Path: "/sitecore/content/sitecore-jss-app/sitecore-jss-app Dictionary/Order/hello"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20240328T105733:638472202538469394Z"

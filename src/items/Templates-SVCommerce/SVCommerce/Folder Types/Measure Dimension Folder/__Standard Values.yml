@@ -1,0 +1,38 @@
+﻿---
+ID: "d7f9b46d-1ecb-4dac-8c57-2e4858c815c0"
+Parent: "0d17fc3f-831e-4dc8-8dd3-585e3e92e79a"
+Template: "0d17fc3f-831e-4dc8-8dd3-585e3e92e79a"
+Path: /sitecore/templates/SVCommerce/Folder Types/Measure Dimension Folder/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{84B4281C-4C1D-4836-8987-ECABA72BEC96}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T071440Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "05ba0bc4-4c03-4ae9-bb85-21b4d864347c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240318T054225Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "8f296a34-a6ba-46ad-ad84-74f1a8735148"
+Parent: "222a3a52-cd8a-478a-bc6c-ca0419ffea70"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Feature Benefits/Greater control and fast development"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T110835Z
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: Greater control and fast development
+    - ID: "811a17b1-df81-4134-97e5-a7f8014e44ed"
+      Hint: Description
+      Value: |
+        <span style="color: #383e4d; background-color: #ffffff;">A headless eCommerce framework ensures complete control over customization, flexibility, and website speed. Separating the front-end and the back-end helps development and content teams work simultaneously, and results in faster deployments. Thus, it is easier to adapt to a new market trend and cut time-to-market.</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "808c0d90-20eb-4ba0-b19d-212bd1716d71"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T110848Z

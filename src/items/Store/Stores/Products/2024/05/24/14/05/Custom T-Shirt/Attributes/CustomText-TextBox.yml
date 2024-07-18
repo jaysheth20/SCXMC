@@ -1,0 +1,37 @@
+﻿---
+ID: "5f32a730-197a-4ec7-aad1-caf263b3067c"
+Parent: "ddbd9cc4-8475-477a-8ecc-a1d83ab83b7d"
+Template: "77da1388-bf02-4efd-8c4b-a7bce446d63a"
+Path: "/sitecore/Stores/Products/2024/05/24/14/05/Custom T-Shirt/Attributes/CustomText-TextBox"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140525Z
+    - ID: "2959ca2a-7ad4-4f98-b357-4f3ed3906b68"
+      Hint: TextPrompt
+      Value: "Enter your text:"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a51914ef-7fe0-46cc-96a7-94e53a60ad24"
+    - ID: "b45c0c44-3071-49e1-a287-7f9d076b394c"
+      Hint: IsRequired
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141038Z

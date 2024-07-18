@@ -1,0 +1,42 @@
+﻿---
+ID: "fd334603-f1a4-4487-a5cd-0865a4d4d863"
+Parent: "5d5baacf-43fc-44c9-a93f-b56875f180c1"
+Template: "1b76a016-f2d4-4e42-b425-a9b8dc79cde3"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/IntroCarosal/Carousal 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "088e66f3-eb6d-4c46-bc94-af15fcf53827"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="/product?pid=29" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240419T061326Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02cd31a9-866e-4a89-a562-4f20b5bb68d2"
+    - ID: "8efecee8-1787-4f82-9f02-3ff94f479d56"
+      Hint: Heading
+      Value: "Custom T-Shirt"
+    - ID: "b60a7cb1-dd49-4eaf-9a88-0262ea87cccb"
+      Hint: Image
+      Value: |
+        <image mediaid="{C62E04E0-9F3B-48BF-8DAB-0317F134C39D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240419T064108Z

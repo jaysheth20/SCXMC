@@ -1,0 +1,42 @@
+﻿---
+ID: "5d5baacf-43fc-44c9-a93f-b56875f180c1"
+Parent: "c3fa9e1a-a774-55b7-a4a1-e9a192243f9b"
+Template: "a0750b38-6ddc-4578-a0c8-e8994894edd9"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/IntroCarosal"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13c74fe9-ae20-48b9-b5b2-3df4c7aa98eb"
+      Hint: ShopOffer
+      Value: |
+        {C2A28918-DAA8-4878-9D2F-618470B66B98}
+        {D9BBAF74-2C47-4410-AE4A-FEDBCB19766E}
+        {C1266026-8CD6-4590-9F59-F6B960C87FAE}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240419T055238Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95ef888c-bce8-4420-9950-d41b4af9a9ef"
+    - ID: "a0753aa3-4487-412c-8a28-ac8bb32c1031"
+      Hint: IntroSlides
+      Value: |
+        {0491E697-E80E-4ED3-AFBB-68134D5CCFB7}
+        {FD334603-F1A4-4487-A5CD-0865A4D4D863}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240419T064114Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "b696bd60-b9c8-478e-867e-7dd377db2266"
+Parent: "61bee559-2317-4e6e-8065-64fff0003ad3"
+Template: "16e5a984-4601-48d0-9bf0-357819d24722"
+Path: "/sitecore/content/sitecore-jss-app/Content/Global Settings/Sort settings/Price Low to High"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240321T112157Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a7c71dc-8129-4ec6-b8ea-fc7a39ff8b78"
+    - ID: "a3887fbc-e6a1-49d3-b30d-a6b7be8acfba"
+      Hint: Name
+      Value: "Price: Low to High"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "bc0e5587-2c60-4ab4-b87e-7bda4f76f45d"
+      Hint: Id
+      Value: 3
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240321T112329Z

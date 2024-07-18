@@ -1,0 +1,30 @@
+﻿---
+ID: "e9a78c02-3249-41a4-8ed2-050af0607fbc"
+Parent: "222a3a52-cd8a-478a-bc6c-ca0419ffea70"
+Template: "dbc51121-bde6-45cf-a2cf-70ed757eb5a3"
+Path: "/sitecore/content/sitecore-jss-app/home/our features/Overview/Page Components/Feature Benefits/Omnichannel support"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T110800Z
+    - ID: "72985e9d-09aa-4ba3-a13e-8b240d9600e1"
+      Hint: Title
+      Value: Omnichannel support
+    - ID: "811a17b1-df81-4134-97e5-a7f8014e44ed"
+      Hint: Description
+      Value: |
+        <span style="color: #383e4d; background-color: #ffffff;">Since headless eCommerce systems are API-driven, they cover multiple channels. These grant access to the content to all consumers through multiple touchpoints: mobile apps, websites, chatbots. As a result, customers get a seamless user experience and great content created in one place can be used everywhere.</span>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72f9db88-9d1c-4ec8-86df-e7e37c1611a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T110813Z

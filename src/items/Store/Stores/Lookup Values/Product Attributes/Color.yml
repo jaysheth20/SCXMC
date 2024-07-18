@@ -1,0 +1,40 @@
+﻿---
+ID: "9fd7525d-3ec1-41da-b99f-5c669a87efdf"
+Parent: "7f230758-6ede-4457-b533-ac947a66c7fc"
+Template: "ebe89edd-a4a7-4cca-90ea-4811d2702fb5"
+Path: /sitecore/Stores/Lookup Values/Product Attributes/Color
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T110750Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "74c08d9c-34ed-4560-bbbf-5aecd7a003d9"
+      Hint: Name
+      Value: Color
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46579955-3a02-452b-983f-ea03778b6afe"
+    - ID: "9ab399de-c68f-4b42-a1d7-0da1b13995fc"
+      Hint: Id
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "c26bc0dd-0dbb-4054-9f16-9b3cd672faa5"
+      Hint: Description
+      Value: <p>Color</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T110750Z

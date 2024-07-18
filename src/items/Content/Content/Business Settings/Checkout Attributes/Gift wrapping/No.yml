@@ -1,0 +1,32 @@
+﻿---
+ID: "07dd31f0-5e5b-48d7-bb4d-a9350d5fb32f"
+Parent: "b804e207-a1a9-408a-b336-c835afe938f9"
+Template: "a2eeb069-44b6-4a39-8a39-9c14d2864528"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Checkout Attributes/Gift wrapping/No"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "063a84bc-db0c-4428-8b6b-7ce1ded0863b"
+      Hint: IsPreSelected
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111102Z
+    - ID: "546eff7a-8367-41cb-81c2-9ab537f3cef1"
+      Hint: Id
+      Value: 1
+    - ID: "74d78823-15fd-4ebd-b775-34c543890541"
+      Hint: Name
+      Value: No
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4b854ea-ef5d-49ec-9a60-a324ce7496be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111102Z

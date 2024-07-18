@@ -1,0 +1,46 @@
+﻿---
+ID: "21455642-f311-4e7f-86d5-c373a01e6043"
+Parent: "3b84d05b-b5de-4d08-afaa-c734f016a641"
+Template: "12aec355-a7be-4f6e-8d0b-eea935480c31"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/HP Spectre XT Pro UltraBook/Pictures/2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140521Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "53c66338-d837-4f1c-9208-bebb72f4b3ee"
+      Hint: ThumbImageUrl
+      Value: "https://nopstore/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook_100.jpeg"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "5f22a3c4-a213-47d2-b6b4-9d5652bbc6b7"
+      Hint: Title
+      Value: Picture of HP Spectre XT Pro UltraBook
+    - ID: "6eec0bbc-7ea2-4613-bc04-e17af2cae1c0"
+      Hint: ImageUrl
+      Value: "https://nopstore/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook_550.jpeg"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7b85308-d94f-4c6d-b478-4706a7169ffe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        default\Anonymous
+    - ID: "bee1d02f-0a13-42d9-ab85-70a5ca79fa31"
+      Hint: AlternateText
+      Value: Picture of HP Spectre XT Pro UltraBook
+    - ID: "d08bd031-78ee-40ef-a048-d55dffb6e176"
+      Hint: FullSizeImageUrl
+      Value: "https://nopstore/images/thumbs/0000029_hp-spectre-xt-pro-ultrabook.jpeg"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T140521Z

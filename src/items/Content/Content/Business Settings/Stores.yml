@@ -1,0 +1,23 @@
+﻿---
+ID: "adc324bb-897c-4bb5-bf2e-769a350bbc93"
+Parent: "a8376828-2ea4-419c-9024-8b4e288c931d"
+Template: "d9e572a4-eaf8-466f-8b8c-d3c89b9917a5"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Stores"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240304T121328Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98c7169b-5ce5-43d4-97d4-0ccc580a2f80"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T101917Z

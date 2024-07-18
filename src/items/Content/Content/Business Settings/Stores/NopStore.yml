@@ -1,0 +1,66 @@
+﻿---
+ID: "705ab9de-cdc4-48ed-9621-a75af0f5e501"
+Parent: "adc324bb-897c-4bb5-bf2e-769a350bbc93"
+Template: "9b880c22-909d-4964-af57-45487d7b0ed6"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Stores/NopStore"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ab7d62b-c729-49a1-bc4c-b2323bd70c7a"
+      Hint: DisplayOrder
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240318T050334Z
+    - ID: "285a695f-a0af-4480-9b4a-e5822e83b01f"
+      Hint: HomepageTitle
+      Value: Home page title
+    - ID: "4db89db4-834a-427b-9865-eb2c9f46dcbf"
+      Hint: HomepageDescription
+      Value: Home page description
+    - ID: "5510ccec-ea32-4783-ad3c-36221d2d20b2"
+      Hint: CompanyAddress
+      Value: your company country, state, zip, street, etc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "61c788c6-835a-43d1-8c6c-729c411d7340"
+      Hint: DefaultLanguageId
+      Value: 0
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1b34379-6c29-4b01-97d5-6567d204bcfa"
+    - ID: "925fab49-c48d-4cd1-a38a-7abf419c184b"
+      Hint: URl
+      Value: "https://nopstore/"
+    - ID: "a5b154f9-9d8c-492d-84e3-b4de5cbfa234"
+      Hint: Id
+      Value: 1
+    - ID: "a7718b91-c2fd-4e9e-ae6c-2aef2566aa05"
+      Hint: CompanyPhoneNumber
+      Value: "(123) 456-78901"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "c1e93bf1-19a9-44ec-a260-8d2e29d35d9a"
+      Hint: Name
+      Value: NopStore
+    - ID: "cf2bd9b7-2788-419c-ae14-b245fbf12bf3"
+      Hint: Hosts
+      Value: yourstore.com,www.yourstore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T101054Z
+    - ID: "dc58a7b4-cdfd-4585-a0fe-019536ceabce"
+      Hint: SslEnabled
+      Value: 1
+    - ID: "ea83144a-0e08-468e-9e12-06d06cff0ddb"
+      Hint: DefaultTitle
+      Value: Your store
+    - ID: "efd36e9b-3126-43cf-a7e9-69e04a6c2a9c"
+      Hint: CompanyName
+      Value: Your company name

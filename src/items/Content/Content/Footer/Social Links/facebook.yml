@@ -1,0 +1,33 @@
+﻿---
+ID: "3b429e01-13f5-40ba-9c6b-daf178e9970b"
+Parent: "c4e83a6d-8534-440b-b8fa-0f0248ad9703"
+Template: "f30c429e-01cb-4f69-b2f0-1cb3c5ab40bc"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Social Links/facebook"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1688aefb-43d7-4595-a5e6-f29082ecf5d9"
+      Hint: Link
+      Value: |
+        <link text="www.facebook.com" linktype="external" url="http://www.facebook.com" anchor="" target="" />
+    - ID: "1d063945-b3fb-43c6-829a-bda1ce54d862"
+      Hint: IconCss
+      Value: "icon-facebook"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T125333Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e21e882-f944-4cfc-be28-e7fb3fbd33ab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T125611Z
+    - ID: "e9005b1e-a413-4f01-87eb-0ef1d1abc06e"
+      Hint: Name
+      Value: facebook

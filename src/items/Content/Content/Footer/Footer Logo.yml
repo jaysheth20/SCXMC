@@ -1,0 +1,45 @@
+﻿---
+ID: "36061976-0165-425f-b5ab-0d6fc96d4e6f"
+Parent: "dd65b116-2d12-41c9-af80-d58eef4e1db5"
+Template: "9bdf4b99-fd64-473e-b29f-1cfa6e0eb319"
+Path: "/sitecore/content/sitecore-jss-app/Content/Footer/Footer Logo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b7625aa-e09d-469f-9ab4-9b499e54a105"
+      Hint: SiteName
+      Value: <span>SV</span>Commerce
+    - ID: "1d702ae8-7028-4b51-bcaf-b5714334e84f"
+      Hint: Logo
+      Value: |
+        <image mediaid="{23AB95E2-0475-49B6-BD1B-4B2D922CCABF}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T134143Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25f310d1-afe6-4ab1-b8e7-648f1bc7fd22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c4322376-bf44-473e-bd6d-883b6597122a"
+      Hint: Description
+      Value: |
+        <p>
+                House My Brand designs clothing for the young, the old & everyone in between – but most
+                importantly, for the fashionable
+              </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240521T140120Z

@@ -1,0 +1,43 @@
+﻿---
+ID: "9c28cfad-d9c8-4c7f-b6e3-53b8331d8a1f"
+Parent: "68fb3104-fe46-4282-8cf5-9fda382e3e61"
+Template: "37198cf8-fa6b-4ec3-9acb-d0fb9bfddf17"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Countries/Australia/Western Australia"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T100422Z
+    - ID: "4518db5a-caeb-402f-bd4e-d1ee5cdc6cf4"
+      Hint: Display order
+      Value: 0
+    - ID: "45fbdb82-86b0-4f14-a9f7-55b95bd4960a"
+      Hint: Published
+      Value: 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cbd5b9d-c056-463c-a444-cdb3f238f9c9"
+    - ID: "94b03d04-ed17-460f-9f1f-013bf7ae8fbc"
+      Hint: Id
+      Value: 52
+    - ID: "a60488e4-531d-4018-8a13-1a6728b0fe91"
+      Hint: Name
+      Value: Western Australia
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T100422Z

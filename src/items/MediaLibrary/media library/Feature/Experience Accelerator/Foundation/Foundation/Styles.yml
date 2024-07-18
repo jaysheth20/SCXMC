@@ -1,0 +1,20 @@
+﻿---
+ID: "16e8ad27-8f12-475c-8a0d-5aa2cf601787"
+Parent: "d6b19a29-48e6-4c85-b0ee-54923c7d839a"
+Template: "9c0dac28-08aa-4b44-bc21-53363206f6a5"
+Path: /sitecore/media library/Feature/Experience Accelerator/Foundation/Foundation/Styles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161215T162601Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "358b043b-8d6d-4a05-a58e-291123191190"

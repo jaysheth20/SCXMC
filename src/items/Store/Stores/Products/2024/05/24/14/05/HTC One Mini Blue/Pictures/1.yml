@@ -1,0 +1,46 @@
+﻿---
+ID: "d610fe67-04c5-41a9-9b2e-716b043083a5"
+Parent: "327a4a11-6da1-43a1-8c65-ddcc2551cdfe"
+Template: "12aec355-a7be-4f6e-8d0b-eea935480c31"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/HTC One Mini Blue/Pictures/1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140522Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "53c66338-d837-4f1c-9208-bebb72f4b3ee"
+      Hint: ThumbImageUrl
+      Value: "https://nopstore/images/thumbs/0000042_htc-one-mini-blue_100.jpeg"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "5f22a3c4-a213-47d2-b6b4-9d5652bbc6b7"
+      Hint: Title
+      Value: Picture of HTC One Mini Blue
+    - ID: "6eec0bbc-7ea2-4613-bc04-e17af2cae1c0"
+      Hint: ImageUrl
+      Value: "https://nopstore/images/thumbs/0000042_htc-one-mini-blue_550.jpeg"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11e7ede5-f5c8-4d9e-a1e7-5463f704ddc4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        default\Anonymous
+    - ID: "bee1d02f-0a13-42d9-ab85-70a5ca79fa31"
+      Hint: AlternateText
+      Value: Picture of HTC One Mini Blue
+    - ID: "d08bd031-78ee-40ef-a048-d55dffb6e176"
+      Hint: FullSizeImageUrl
+      Value: "https://nopstore/images/thumbs/0000042_htc-one-mini-blue.jpeg"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T140522Z

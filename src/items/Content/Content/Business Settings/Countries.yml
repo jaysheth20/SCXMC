@@ -1,0 +1,23 @@
+﻿---
+ID: "0e8ea6d1-86a1-4434-abe3-93e35bdf007c"
+Parent: "a8376828-2ea4-419c-9024-8b4e288c931d"
+Template: "f9233d7b-f60a-473d-a2e8-c7e01dca87ec"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Countries"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240305T110222Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2c01c6d-fc27-4be6-9cca-2087d83bd4c0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T101837Z

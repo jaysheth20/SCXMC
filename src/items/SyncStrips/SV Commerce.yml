@@ -1,0 +1,41 @@
+﻿---
+ID: "72f790e6-d2dc-47b9-9d2f-e2a7080d9e90"
+Parent: "cda16873-6b24-4755-aa6e-23bf419f34eb"
+Template: "ec6d62a5-5d00-4329-8958-8ac1ad100ebb"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Strips/SV Commerce
+SharedFields:
+- ID: "12c1ceb4-f549-472a-97ed-99bff70eb84e"
+  Hint: ID
+  Value: svcommerce
+- ID: "59de8e82-a9bc-4862-bbee-f5567dd63b65"
+  Hint: Access Key
+  Value: C
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240304T090201Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: SV Commerce
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15645d2a-a853-48ee-9aaf-d6ef0547f5b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240304T090404Z

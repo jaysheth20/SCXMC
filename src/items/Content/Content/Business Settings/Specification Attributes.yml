@@ -1,0 +1,23 @@
+﻿---
+ID: "e4de05c4-a19a-4cd7-8611-c4de89751b60"
+Parent: "a8376828-2ea4-419c-9024-8b4e288c931d"
+Template: "626a0e17-e4a4-4853-bdb2-72a5d010e928"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Specification Attributes"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T130902Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a8757da-fe85-4ade-a31a-32486d54f68b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T110932Z

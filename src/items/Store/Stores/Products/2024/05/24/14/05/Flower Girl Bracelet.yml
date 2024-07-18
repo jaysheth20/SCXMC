@@ -1,0 +1,64 @@
+﻿---
+ID: "9208116a-3d4c-4a26-a386-0e7ece599d5d"
+Parent: "a7cc7fa2-eef3-4abd-8192-68acb21d9f27"
+Template: "f1cc134b-91d0-4984-843f-73bdfff2582c"
+Path: /sitecore/Stores/Products/2024/05/24/14/05/Flower Girl Bracelet
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11711da6-4ad0-4894-9e40-44e4af860a48"
+      Hint: SKU
+      Value: FL_GIRL_B
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140526Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "7870f8c4-9e2b-4ea9-8c73-36c052ab3b2e"
+      Hint: InventoryMethod
+      Value: ManageStock
+    - ID: "7939dda2-9deb-4410-bed0-1a9c0b1960ef"
+      Hint: FreeShipping
+      Value: 1
+    - ID: "8303a53a-a87a-4d47-9d6b-3ad3871aa638"
+      Hint: FullDescription
+      Value: <p>This is a great gift for your flower girl to wear on your wedding day. A delicate bracelet that is made with silver plated soldered cable chain, gives this bracelet a dainty look for young wrist. A Swarovski heart, shown in Rose, hangs off a silver plated flower. Hanging alongside the heart is a silver plated heart charm with Flower Girl engraved on both sides. This is a great style for the younger flower girl.</p>
+    - ID: "83abb57c-bae8-46a0-ac31-4d32f1291edd"
+      Hint: Categories
+      Value: "{3F30076B-C641-4972-86F7-DAF961A292E8}"
+    - ID: "8b5a07d9-d62b-4111-8cdc-192ad48a3187"
+      Hint: ShortDescription
+      Value: Personalised Flower Braceled
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f406283b-c872-469e-9cf5-acabb33b0d86"
+    - ID: "b035e599-4a90-4e6d-92b8-c100703f3822"
+      Hint: ProductId
+      Value: 41
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141039Z
+    - ID: "dd065948-be66-4e11-a230-8837fca7a404"
+      Hint: StockQuantity
+      Value: In stock
+    - ID: "eea8521d-8877-45ba-9743-448d4e23d1ad"
+      Hint: ProductName
+      Value: Flower Girl Bracelet
+    - ID: "f8cf5733-377a-4955-ad44-1c5311f7956c"
+      Hint: Price
+      Value: $360.00
+    - ID: "fe85197b-46e1-46ad-add5-16ca36dfb64f"
+      Hint: ShippingEnabled
+      Value: 1

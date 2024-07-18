@@ -1,0 +1,26 @@
+﻿---
+ID: "9f356c79-6387-4129-b274-665b76db0ea5"
+Parent: "5d85509c-44b0-4e9e-b0a0-cb8a1508d477"
+Template: "8c602b9c-9de3-42bb-aef2-92ed4c263ec1"
+Path: "/sitecore/content/sitecore-jss-app/Content/Global Settings/Image Position/Top"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240522T061337Z
+    - ID: "439fe57a-7e55-4cd8-82de-a5e490fb69ec"
+      Hint: Position
+      Value: Top
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fd2d4e0-efe7-4e85-a55f-6003159cce55"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240522T061337Z

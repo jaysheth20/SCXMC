@@ -1,0 +1,37 @@
+﻿---
+ID: "8e4eba29-d686-46b4-a761-6531b897ab70"
+Parent: "d0ae8dcd-460c-4918-a3d7-1b1a28544315"
+Template: "2094f93d-218e-47bd-a777-a513b45fb946"
+Path: "/sitecore/content/sitecore-jss-app/Content/Global Settings/Price filter settings/Price filter"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240403T092551Z
+    - ID: "297f9913-b7f2-429e-9fe2-ae0237d689ca"
+      Hint: Minimum price
+      Value: 0
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ad788f5-d796-4aff-ba64-825da380f60a"
+    - ID: "97d81604-401e-4f3a-82ae-19184b5ce487"
+      Hint: Maximum price
+      Value: 10000
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240403T092559Z

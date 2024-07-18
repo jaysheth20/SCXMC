@@ -1,0 +1,32 @@
+﻿---
+ID: "cd97b938-619e-4848-b41d-0a4a81e28d42"
+Parent: "14355430-30f5-4d11-a931-ae00ceb3c13e"
+Template: "da37599a-751c-499f-a122-23c394bf9c26"
+Path: "/sitecore/content/sitecore-jss-app/Content/Business Settings/Delivery dates/1-2 days"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240523T111105Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92b64876-b827-44f9-a19d-731917881ae5"
+    - ID: "91d24cf2-700a-44fe-ab61-3ccabe53fe53"
+      Hint: Id
+      Value: 1
+    - ID: "a60a06e2-d13d-47e1-b909-0b0c108cbbb3"
+      Hint: DisplayOrder
+      Value: 1
+    - ID: "af30c923-3d56-43cc-b645-2411fd7aab37"
+      Hint: Name
+      Value: "1-2 days"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240523T111105Z

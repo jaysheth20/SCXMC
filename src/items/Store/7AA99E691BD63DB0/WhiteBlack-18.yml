@@ -1,0 +1,52 @@
+﻿---
+ID: "ab7ada80-2469-45f2-888a-98528613d42e"
+Parent: "c550b6df-66ab-4474-8464-dc6b9755a2fd"
+Template: "55919db8-cd03-46cf-a6dd-35e7814e7fa8"
+Path: "/sitecore/Stores/Products/2024/05/24/14/05/Nike Floral Roshe Customized Running Shoes/Attributes/Color-DropdownList/WhiteBlack-18"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240524T140523Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        default\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "656f226f-0ad5-48d4-9077-3e6b5c0880ef"
+      Hint: CustomerEntersQty
+      Value: 0
+    - ID: "77eab620-3bef-4bb3-b3b7-42aa5da82ce7"
+      Hint: PictureId
+      Value: 0
+    - ID: "7b3c06b3-85a6-48f9-a508-0ff6521d8380"
+      Hint: Quantity
+      Value: 0
+    - ID: "88cba7f3-5058-4268-a28f-9cbf46dd9f03"
+      Hint: PriceAdjustmentValue
+      Value: 0.0000
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b12304a-d8e4-417c-b263-58994ad7a46b"
+    - ID: "b8fb7059-5d2b-4aff-a57f-ac5693e94a94"
+      Hint: PriceAdjustmentUsePercentage
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "c7b8200d-c4f5-40c9-a386-6a7a6e222d48"
+      Hint: IsPreSelected
+      Value: 0
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240524T141038Z
+    - ID: "f2cfae9b-407a-435e-8e44-8e1197a7a363"
+      Hint: Name
+      Value: White/Black

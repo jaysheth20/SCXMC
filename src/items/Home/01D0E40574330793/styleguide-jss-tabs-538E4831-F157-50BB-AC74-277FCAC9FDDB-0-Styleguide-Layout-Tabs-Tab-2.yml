@@ -1,0 +1,40 @@
+﻿---
+ID: "fa8c9891-08e7-566d-ba83-f9b644974bb6"
+Parent: "16a383f1-58be-5406-a1bc-0cba816f2e1c"
+Template: "9d4704f1-23b9-5c84-b6cc-4d8368198f78"
+Path: "/sitecore/content/sitecore-jss-app/home/styleguide/Page Components/styleguide-jss-tabs-538E4831-F157-50BB-AC74-277FCAC9FDDB-0-Styleguide-Layout-Tabs-Tab-2"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Layout-Tabs-Tab-2"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08607a70-2851-5fd0-981c-5b0bcfa5c683"
+      Hint: title
+      Value: Tab 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T114711Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "443beb46-1729-5b38-9ee2-b8e5cc8b69c9"
+      Hint: content
+      Value: "<p>Tab 2 contents!</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b4cc343-9bc6-481c-9ff6-11a9badb7b7e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240327T114711Z

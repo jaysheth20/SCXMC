@@ -1,0 +1,37 @@
+﻿---
+ID: "197183cd-c506-448e-8ba8-6a104f99d3f7"
+Parent: "5edc1f81-2792-4c01-8e90-63ed3f5f6e2c"
+Template: "d2e8495c-467b-4e23-ba94-b2a07f3d0456"
+Path: /sitecore/Stores/Lookup Values/Control type/Date picker
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T111234Z
+    - ID: "497eb0f7-5c3d-4e3a-b974-693e72a8b849"
+      Hint: Enum Id
+      Value: 20
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "5e92be4c-c038-4362-99e6-a27ca732f28b"
+      Hint: Enum Description
+      Value: Date picker
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "520613fc-7468-43c1-ab0d-fff4a227b41c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240129T111237Z
