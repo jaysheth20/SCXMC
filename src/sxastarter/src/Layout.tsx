@@ -1,14 +1,16 @@
-/**
- * This Layout is needed for Starter Kit.
- */
-import React from 'react';
+import React, { useContext } from 'react';
 import Head from 'next/head';
 import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
-import config from 'temp/config';
-import Scripts from 'src/Scripts';
+import { Provider } from 'react-redux';
+import dynamic from 'next/dynamic';
+import { useRouter } from 'next/router';
+import { PersistGate } from 'redux-persist/integration/react';
 
-// Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
-// If you're not supporting the Experience Editor, you can remove this.
+import store, { persistor } from 'src/store';
+import { ThemeContext } from 'components/ThemeContext/ThemeContext';
+import config from 'temp/config';
+
+const Header = dynamic(() => import('components/Header/Header'), { ssr: false });
 const publicUrl = config.publicUrl;
 
 interface LayoutProps {
@@ -18,38 +20,53 @@ interface LayoutProps {
 
 interface RouteFields {
   [key: string]: unknown;
-  Title?: Field;
+  pageTitle: Field;
 }
 
 const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const { route } = layoutData.sitecore;
+  const { theme } = useContext(ThemeContext);
   const fields = route?.fields as RouteFields;
-  const isPageEditing = layoutData.sitecore.context.pageEditing;
-  const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-
+  const router = useRouter();
+  const pathname = router.pathname;
   return (
     <>
-      <Scripts />
-      <Head>
-        <title>{fields?.Title?.value?.toString() || 'Page'}</title>
-        <link rel="icon" href={`${publicUrl}/favicon.ico`} />
-        {headLinks.map((headLink) => (
-          <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
-        ))}
-      </Head>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <div className="app-main" data-theme={theme}>
+            <Head>
+              <title>{fields.pageTitle.value.toString() || 'Page'}</title>
+              <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+              {headLinks.map((headLink) => (
+                <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
+              ))}
+            </Head>
+            <Header />
+            <main className={pathname !== '/' ? 'main-page' : 'main-home-page'}>
+              {route && (
+                <>
+                  <Placeholder name="jss-main" rendering={route} />
+                  <footer className="site-footer">
+                    <div className="container">
+                      <div className="site-footer__top">
+                        <div className="site-footer__description">
+                          <Placeholder name="jss-footer-left" rendering={route} />
+                        </div>
 
-      {/* root placeholder for the app, which we add components to using route data */}
-      <div className={mainClassPageEditing}>
-        <header>
-          <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
-        </header>
-        <main>
-          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
-        </main>
-        <footer>
-          <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
-        </footer>
-      </div>
+                        <div className="site-footer__links">
+                          <Placeholder name="jss-footer-right" rendering={route} />
+                        </div>
+                      </div>
+                    </div>
+                    <Placeholder name="jss-footer-bottom" rendering={route} />
+                  </footer>
+                </>
+              )}
+            </main>
+            {/* <Footer /> */}
+          </div>
+        </PersistGate>
+      </Provider>
     </>
   );
 };

@@ -1,8 +1,21 @@
 import type { NextRequest, NextFetchEvent } from 'next/server';
-import middleware from 'lib/middleware';
 
+import middleware from 'lib/middleware';
+const protectedRoutes = [
+  '/shoppingcart',
+  '/checkout',
+  '/account',
+  '/account/change-password',
+  '/account/orderhistory',
+  '/wishlist',
+  '/account/orderdetail',
+];
 // eslint-disable-next-line
 export default async function (req: NextRequest, ev: NextFetchEvent) {
+  const currentUser = req.cookies.get('.Nop.Authentication')?.value;
+  if (!currentUser && protectedRoutes.includes(req.nextUrl.pathname)) {
+    return Response.redirect(new URL('/login', req.url));
+  }
   return middleware(req, ev);
 }
 
@@ -14,11 +27,7 @@ export const config = {
    * 3. /sitecore/api (Sitecore API routes)
    * 4. /- (Sitecore media)
    * 5. /healthz (Health check)
-   * 6. /feaas-render (FEaaS render)
-   * 7. all root files inside /public
+   * 6. all root files inside /public
    */
-  matcher: [
-    '/',
-    '/((?!api/|_next/|feaas-render|healthz|sitecore/api/|-/|favicon.ico|sc_logo.svg).*)',
-  ],
+  matcher: ['/', '/((?!api/|_next/|healthz|sitecore/api/|-/|favicon.ico|sc_logo.svg).*)'],
 };

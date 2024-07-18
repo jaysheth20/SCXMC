@@ -1,23 +1,42 @@
 import type { AppProps } from 'next/app';
+import Router from 'next/router';
 import { I18nProvider } from 'next-localization';
-import { SitecorePageProps } from 'lib/page-props';
-import Bootstrap from 'src/Bootstrap';
+import NProgress from 'nprogress';
 
-import 'assets/main.scss';
+import { SitecorePageProps } from 'lib/page-props';
+// global styles
+import 'swiper/swiper.scss';
+import 'rc-slider/assets/index.css';
+import 'react-rater/lib/react-rater.css';
+import 'src/assets/css/styles.scss';
+import ThemeProvider from 'components/ThemeContext/ThemeProvider';
+
+// Using bootstrap and nprogress are completely optional.
+//  bootstrap is used here to provide a clean layout for samples, without needing extra CSS in the sample app
+//  nprogress provides a loading indicator on page/route changes
+// Remove these in package.json as well if removed here.
+import 'nprogress/nprogress.css';
+
+NProgress.configure({ showSpinner: false, trickleSpeed: 100 });
+
+Router.events.on('routeChangeStart', () => NProgress.start());
+Router.events.on('routeChangeComplete', () => NProgress.done());
+Router.events.on('routeChangeError', () => NProgress.done());
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
 
   return (
     <>
-      <Bootstrap {...pageProps} />
       {/*
         // Use the next-localization (w/ rosetta) library to provide our translation dictionary to the app.
         // Note Next.js does not (currently) provide anything for translation, only i18n routing.
         // If your app is not multilingual, next-localization and references to it can be removed.
       */}
       <I18nProvider lngDict={dictionary} locale={pageProps.locale}>
-        <Component {...rest} />
+        <ThemeProvider>
+          <Component {...rest} />
+        </ThemeProvider>
       </I18nProvider>
     </>
   );

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextFetchEvent, NextRequest } from 'next/server';
 import { debug } from '@sitecore-jss/sitecore-jss-nextjs/middleware';
+
 import * as plugins from 'temp/middleware-plugins';
 
 export interface MiddlewarePlugin {
@@ -19,7 +20,6 @@ export default async function middleware(
   ev: NextFetchEvent
 ): Promise<NextResponse> {
   const response = NextResponse.next();
-
   debug.common('next middleware start');
 
   const start = Date.now();

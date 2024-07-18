@@ -1,6 +1,8 @@
 import { SiteInfo } from '@sitecore-jss/sitecore-jss-nextjs/site';
-import config from 'temp/config';
+
 import { SiteResolverPlugin } from '..';
+
+import config from 'temp/config';
 
 class DefaultPlugin implements SiteResolverPlugin {
   exec(sites: SiteInfo[]): SiteInfo[] {

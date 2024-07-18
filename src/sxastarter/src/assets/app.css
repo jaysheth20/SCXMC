@@ -34,3 +34,42 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.price{
+  font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+.stepper {
+  padding: 3, 0, 5;
+}
+.buttons {
+  display: 'flex';
+  justify-content: 'flex-end'
+}
+.button {
+  margin-top: 3;
+  margin-left: 1;
+}
+.wrapper {
+  margin: 1;
+  position: 'relative'
+}
+.button-progress {
+  position: 'absolute';
+  top:'50%';
+  left: '50%';
+}
+.listItem {
+  padding: 1, 0;
+}
+.total {
+  font-weight: '700';
+}
+.title {
+  margin-top: 2
+}
+.nev-back-blue{
+  background-color: #002c5b;
+}
