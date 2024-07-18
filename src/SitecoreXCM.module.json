@@ -115,6 +115,25 @@
           }]
       },
       {
+        "name": "Templates-Foundation",
+        "path":"/sitecore/templates/Foundation",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "ItemAndDescendants",
+        "rules": [
+          {
+            "path": "/Experience Accelerator",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/JSS Experience Accelerator",
+            "scope": "Ignored"
+          },
+          {
+            "path": "/JavaScript Services",
+            "scope": "Ignored"
+          }]
+      },
+      {
         "name": "Templates-Project",
         "path":"/sitecore/templates/Project",
         "allowedPushOperations": "createUpdateAndDelete",

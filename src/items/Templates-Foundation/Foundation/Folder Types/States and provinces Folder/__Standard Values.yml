@@ -1,0 +1,35 @@
+﻿---
+ID: "ee18aaac-9eba-4f4d-97dc-16f1b9167422"
+Parent: "84fb2afd-85ff-4ea4-93a5-9f40bbe00dda"
+Template: "84fb2afd-85ff-4ea4-93a5-9f40bbe00dda"
+Path: /sitecore/templates/Foundation/Folder Types/States and provinces Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{37198CF8-FA6B-4EC3-9ACB-D0FB9BFDDF17}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240304T084903Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e75ba6d3-259a-4a13-aaad-580199bf6acc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240304T084915Z

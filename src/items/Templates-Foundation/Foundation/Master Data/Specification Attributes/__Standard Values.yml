@@ -1,0 +1,27 @@
+﻿---
+ID: "60b289a5-d15a-4920-b855-216ae0beb3b6"
+Parent: "bf57e65e-315b-403b-b0fb-7b09a9c12f42"
+Template: "bf57e65e-315b-403b-b0fb-7b09a9c12f42"
+Path: /sitecore/templates/Foundation/Master Data/Specification Attributes/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{BF57E65E-315B-403B-B0FB-7B09A9C12F42}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240315T131626Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f184a065-56f5-4277-b2ae-671b834bf53c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240315T131647Z
