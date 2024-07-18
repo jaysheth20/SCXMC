@@ -121,12 +121,7 @@
         "allowedPushOperations": "createUpdateAndDelete",
         "scope": "ItemAndDescendants"
       },
-      {
-        "name": "APIKeys",
-        "path":"/sitecore/system/Settings/Services/API Keys",
-        "allowedPushOperations": "createUpdateAndDelete",
-        "scope": "ItemAndDescendants"
-      },
+      
       {
         "name": "SyncChunk",
         "path":"/sitecore/content/Applications/Content Editor/Ribbons/Chunks/SV Commerce Master Sync",
