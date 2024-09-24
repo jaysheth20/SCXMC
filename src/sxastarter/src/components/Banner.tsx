@@ -7,16 +7,16 @@ interface Fields {
 }
 
 export type BannerProps = {
-    fields: Fields;
+  fields: Fields;
 };
 
 export const banner = (props: BannerProps): JSX.Element => {
-    return(
-        <div className="container-default">
-            <h1 className="component title row">
-                <Text field={props.fields.Heading} />
-                <JssImage field={props.fields.Image} />
-            </h1>
-        </div>
-    );
+  return (
+    <div className="container-default">
+        <h1 className="component title row">
+            <Text field={props.fields.Heading} />
+            <JssImage field={props.fields.Image} />
+        </h1>
+    </div>
+  );
 };
