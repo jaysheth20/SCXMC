@@ -1,5 +1,5 @@
 import React from 'react';
-import { Field, ImageField,Text,Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, Text ,Image as JssImage } from '@sitecore-jss/sitecore-jss-nextjs';
 
 
 interface Fields {
@@ -11,7 +11,7 @@ export type BannerProps = {
     fields: Fields;
 };
 
-export const banner = (props:BannerProps): JSX.Element => {
+export const banner = (props: BannerProps): JSX.Element => {
 return(
 <div className="container-default">
     <h1 className="component title row">
