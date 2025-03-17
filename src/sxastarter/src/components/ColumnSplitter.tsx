@@ -9,7 +9,7 @@ interface ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
   params: ComponentParams;
 }
-
+//test
 export const Default = (props: ComponentProps): JSX.Element => {
   const styles = `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd();
   const columnWidths = [
