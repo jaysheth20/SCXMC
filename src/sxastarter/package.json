@@ -44,7 +44,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.52.3",
-    "sass-alias": "^1.0.5"
+    "sass-alias": "^1.0.5",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.0",
@@ -92,7 +93,7 @@
     "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "next:start": "next start",
     "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
-    "start:connected": "cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
+    "start:connected": "cross-env NODE_ENV=development PORT=3000 npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
     "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
   }

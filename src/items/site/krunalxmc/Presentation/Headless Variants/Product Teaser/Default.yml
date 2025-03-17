@@ -1,0 +1,36 @@
+﻿---
+ID: "6c5520cf-adcc-42dc-bc74-1e61cfc759a5"
+Parent: "6ffa7578-5ee8-4e01-8cc8-dfcb034b0666"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/krunal/krunalxmc/Presentation/Headless Variants/Product Teaser/Default
+BranchID: "c573427f-a31f-456b-b642-25ef29c54dd7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D4072818-0E2A-4F09-AE7C-2B8A917EC348}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250305T100735Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\hSisfMVl83
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\hSisfMVl83
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5707ca36-7a33-442b-be1c-3092523023be"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\hSisfMVl83
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250305T100735Z

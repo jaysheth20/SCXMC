@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  Field,
   Link,
   LinkField,
   Text,
@@ -16,7 +17,22 @@ interface Fields {
   Querystring: string;
   Children: Array<Fields>;
   Styles: string[];
+  NavigationFilter: Array<string>;
+  NavigationClass: FieldsNavigationClass;
 }
+
+type FieldsNavigationClassFields = {
+  IsVerifiedStyle?: Field<boolean>;
+  Value?: TextField;
+};
+
+type FieldsNavigationClass = {
+  id?: string;
+  url?: string;
+  name?: string;
+  displayName?: string;
+  fields?: FieldsNavigationClassFields;
+};
 
 type NavigationProps = {
   params?: { [key: string]: string };
@@ -48,6 +64,7 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 });
 
 export const Default = (props: NavigationProps): JSX.Element => {
+  console.log('Navigation Props:', props);
   const [isOpenMenu, openMenu] = useState(false);
   const { sitecoreContext } = useSitecoreContext();
   const styles =
@@ -86,7 +103,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
         relativeLevel={1}
       />
     ));
-
+  console.log('Navigation Filters:', props);
   return (
     <div className={`component navigation ${styles}`} id={id ? id : undefined}>
       <label className="menu-mobile-navigate-wrapper">
@@ -113,7 +130,13 @@ const NavigationList = (props: NavigationProps) => {
   const classNameList = `${props.fields.Styles.concat('rel-level' + props.relativeLevel).join(
     ' '
   )}`;
-
+  console.log(
+    'Navigation Props:',
+    Array.isArray(sitecoreContext?.route?.fields?.NavigationFilter) &&
+      sitecoreContext.route.fields.NavigationFilter.some(
+        (item: { displayName?: string }) => item.displayName === 'Main Navigation'
+      )
+  );
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
     children = props.fields.Children.map((element: Fields, index: number) => (
@@ -125,7 +148,6 @@ const NavigationList = (props: NavigationProps) => {
       />
     ));
   }
-
   return (
     <li className={`${classNameList} ${active ? 'active' : ''}`} key={props.fields.Id} tabIndex={0}>
       <div

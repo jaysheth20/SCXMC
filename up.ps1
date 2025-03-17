@@ -62,7 +62,7 @@ docker compose up -d
 Write-Host "Waiting for CM to become available..." -ForegroundColor Green
 $startTime = Get-Date
 do {
-    Start-Sleep -Milliseconds 100
+    Start-Sleep -Milliseconds 300
     try {
         $status = Invoke-RestMethod "http://localhost:8079/api/http/routers/cm-secure@docker"
     } catch {

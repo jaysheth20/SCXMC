@@ -15,7 +15,7 @@ a[target='_blank']:after {
 .sc-jss-editing-error,
 .sc-jss-placeholder-error {
   padding: 1em;
-  background-color: lightyellow;
+  background-color: rgb(163, 163, 110);
 }
 
 /* 
