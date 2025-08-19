@@ -1,4 +1,5 @@
-﻿using Sitecore.Shell.Framework.Commands;
+﻿using Sitecore.Diagnostics;
+using Sitecore.Shell.Framework.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,9 @@ namespace XmCloudSXAStarter.Commands
             // Example: Clear Sitecore cache
             Sitecore.Caching.CacheManager.ClearAllCaches();
             Sitecore.Context.ClientPage.ClientResponse.Alert("All caches cleared!");
+            Log.Info("Clear Cache", this);
+
         }
-        
+
     }
 }
