@@ -13,8 +13,7 @@ namespace XmCloudSXAStarter.Pipelines
         {
             Log.Info("✅ CustomPublishPipeline executed successfully!", this);
 
-            // Example: Add custom logic (like updating Solr, clearing cache, etc.)
-            // You can pass info through PipelineArgs.CustomData
+           
         }
     }
 }

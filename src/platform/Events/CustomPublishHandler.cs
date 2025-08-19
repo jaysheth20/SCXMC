@@ -15,6 +15,8 @@ namespace XmCloudSXAStarter.Events
 
             // Run the custom pipeline
             CorePipeline.Run("customPublishPipeline", new PipelineArgs());
+            Log.Info("✅ [CustomPublishHandler] Custom pipeline executed successfully.", this);
+
         }
     }
 }
