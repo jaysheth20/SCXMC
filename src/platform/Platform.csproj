@@ -74,6 +74,8 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="Commands\SyncRandom.cs" />
+    <Compile Include="Events\CustomPublishHandler.cs" />
+    <Compile Include="Pipelines\CustomPublishProcessor.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
