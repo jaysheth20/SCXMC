@@ -66,16 +66,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.Sync.config" />
+    <Content Include="App_Config\Include\Foundation\Custom.Pipelines.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\ClearCacheCommand.cs" />
     <Compile Include="Commands\SyncRandom.cs" />
     <Compile Include="Events\CustomPublishHandler.cs" />
     <Compile Include="Pipelines\CustomPublishProcessor.cs" />
+    <Compile Include="Pipelines\TestPipelineProcessor.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
