@@ -1,7 +1,8 @@
 // components/DemoSample.tsx
 import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
-
+import SearchResults from "./SearchResults";
+import SearchBox from "./SearchBox";
 let engageInstance: any = null;
 
 const DemoSample = () => {
@@ -104,6 +105,8 @@ const DemoSample = () => {
       </div>
       <p><strong>Status:</strong> {status}</p>
       {guestRef && <p>🎯 <strong>bx_guest_ref:</strong> {guestRef}</p>}
+      <h2>🔎 Sitecore Search Demo</h2>
+      <SearchBox />
     </div>
   );
 };

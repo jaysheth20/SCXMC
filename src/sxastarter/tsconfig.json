@@ -52,7 +52,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/syncSitecoreItem.js"  ],
   "exclude": [
     "node_modules"
   ]

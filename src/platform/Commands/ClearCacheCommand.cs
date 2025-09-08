@@ -16,7 +16,7 @@ namespace XmCloudSXAStarter.Commands
             Sitecore.Context.ClientPage.ClientResponse.Alert("All caches cleared!");
             Log.Info("Clear Cache", this);
 
-        }
+        }   
 
     }
 }
