@@ -4,11 +4,10 @@ import { useEffect, useState } from "react";
 import { fetchSearchResults } from "../lib/sitecoreSearch";
 import { getCookie } from "../lib/cookies";
 
-export default function SearchResults({ rfkId }: { rfkId: string }) {
+export default function SearchResults({ rfkId, keyword }: { rfkId: string; keyword?: string }) {
     const [results, setResults] = useState<any[]>([]);
     const [facets, setFacets] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
-    const [keyword, setKeyword] = useState("");
     const [selectedFacets, setSelectedFacets] = useState<{ [key: string]: string[] }>({});
 
     const [uuid] = useState<string>(() => {
@@ -16,7 +15,7 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
         return cookieValue || "visitor-" + Math.random().toString(36).substr(2, 9);
     });
 
-    // ✅ Updated publishEvent to send plain JSON
+    // ✅ Publish event
     const publishEvent = async (event: any) => {
         const endpoint = "https://discover.sitecorecloud.io/event/128591118-1164436/v4/publish";
         const apiKey = "01-69b141fb-5eaec29094dc20b453087d784b7bf4283555fe18";
@@ -26,9 +25,9 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
                 method: "POST",
                 headers: {
                     Authorization: apiKey,
-                    "Content-Type": "application/json", // use application/json for plain JSON
+                    "Content-Type": "application/json",
                 },
-                body: JSON.stringify(event), // send event directly
+                body: JSON.stringify(event),
             });
 
             const data = await res.json();
@@ -38,15 +37,18 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
         }
     };
 
-    const loadResults = async (searchKeyword?: string) => {
+    // ✅ Fetch results with keyword + apply filters locally
+    const loadResults = async () => {
         try {
             setLoading(true);
-            const data = await fetchSearchResults(rfkId, searchKeyword, uuid);
+
+            // fetch from API with keyword
+            const data = await fetchSearchResults(rfkId, keyword, uuid);
 
             const widget = data.widgets?.[0];
             let resultsData = widget?.content || [];
 
-            // Facet filtering
+            // apply facet filters locally
             Object.keys(selectedFacets).forEach((facetName) => {
                 const values = selectedFacets[facetName];
                 if (values.length > 0) {
@@ -54,12 +56,21 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
                 }
             });
 
-            console.log("Publishing event entities:", resultsData);
+            // apply keyword filter locally (extra safety so search+filters behave the same)
+            if (keyword && keyword.trim() !== "") {
+                const lower = keyword.toLowerCase();
+                resultsData = resultsData.filter(
+                    (item) =>
+                        item.title?.toLowerCase().includes(lower) ||
+                        item.description?.toLowerCase().includes(lower) ||
+                        item.author?.toLowerCase().includes(lower)
+                );
+            }
 
             setResults(resultsData);
             setFacets(widget?.facet || []);
 
-            // ✅ Publish view event if results exist
+            // publish view event
             if (resultsData.length > 0 && widget?.request_id) {
                 await publishEvent({
                     name: "entity_page",
@@ -85,15 +96,7 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
 
     useEffect(() => {
         loadResults();
-    }, [rfkId, uuid]);
-
-    useEffect(() => {
-        loadResults(keyword);
-    }, [selectedFacets]);
-
-    const handleSearch = () => {
-        loadResults(keyword);
-    };
+    }, [rfkId, uuid, keyword, selectedFacets]);
 
     const handleResultClick = async (item: any) => {
         await publishEvent({
@@ -116,20 +119,6 @@ export default function SearchResults({ rfkId }: { rfkId: string }) {
 
     return (
         <div style={{ padding: "20px" }}>
-            {/* Search input */}
-            <div style={{ marginBottom: "1rem" }}>
-                <input
-                    type="text"
-                    placeholder="Search..."
-                    value={keyword}
-                    onChange={(e) => setKeyword(e.target.value)}
-                    style={{ padding: "6px 12px", width: "250px" }}
-                />
-                <button onClick={handleSearch} style={{ marginLeft: "0.5rem", padding: "6px 12px" }}>
-                    Search
-                </button>
-            </div>
-
             {/* Facets */}
             <div style={{ marginBottom: "20px", display: "flex", gap: "8px", flexWrap: "wrap" }}>
                 {facets.map((facet) => (
