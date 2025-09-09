@@ -21,29 +21,7 @@ export default function RecommendSearchResults({ keyword }: RecommendSearchResul
     const [loading, setLoading] = useState(false);
     const [uuid, setUuid] = useState<string>("");
 
-    // ✅ read cookie only on client
-    useEffect(() => {
-        // ✅ only fetch if keyword and uuid exist
-        if (!keyword || !uuid) return;
-
-        const loadResults = async () => {
-            try {
-                setLoading(true);
-                const data: any = await fetchSearchResults("1003", keyword, uuid);
-                const widget = data.widgets?.[0];
-                setResults(widget?.content || []);
-            } catch (err) {
-                console.error("❌ Error fetching recommended blogs:", err);
-                setResults([]);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        loadResults();
-    }, [keyword, uuid]);
-
-    // ✅ fetch recommended blogs
+    // ✅ fetch results on keyword change
     useEffect(() => {
         if (!keyword || !uuid) return setResults([]);
 
@@ -52,7 +30,14 @@ export default function RecommendSearchResults({ keyword }: RecommendSearchResul
                 setLoading(true);
                 const data: any = await fetchSearchResults("1003", keyword, uuid);
                 const widget = data.widgets?.[0];
-                setResults(widget?.content || []);
+                let items: BlogItem[] = widget?.content || [];
+
+                // 🔹 filter client-side for better accuracy
+                items = items.filter((b) =>
+                    b.name?.toLowerCase().includes(keyword.toLowerCase())
+                );
+
+                setResults(items);
             } catch (err) {
                 console.error("❌ Error fetching recommended blogs:", err);
                 setResults([]);
@@ -89,11 +74,20 @@ export default function RecommendSearchResults({ keyword }: RecommendSearchResul
                             }}
                         >
                             <h4>{item.name}</h4>
-                            <p style={{ fontSize: "14px", color: "#333" }}>{item.description || "No description."}</p>
+                            <p style={{ fontSize: "14px", color: "#333" }}>
+                                {item.description || "No description."}
+                            </p>
                             {item.author && (
-                                <p style={{ fontWeight: "bold", fontSize: "13px", color: "#555" }}>Author: {item.author}</p>
+                                <p style={{ fontWeight: "bold", fontSize: "13px", color: "#555" }}>
+                                    Author: {item.author}
+                                </p>
                             )}
-                            <a href={item.url} target="_blank" rel="noreferrer" style={{ marginTop: "auto", color: "#2563eb" }}>
+                            <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{ marginTop: "auto", color: "#2563eb" }}
+                            >
                                 Read More →
                             </a>
                         </div>
