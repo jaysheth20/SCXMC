@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { fetchSearchResults } from "../lib/sitecoreSearch";
-import { getCookie } from "../lib/cookies";
+import { getCookie, setCookie } from "../lib/cookies"; // make sure you have setCookie implemented
 
 export default function SearchResults({ rfkId, keyword }: { rfkId: string; keyword?: string }) {
     const [results, setResults] = useState<any[]>([]);
@@ -14,6 +14,21 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
         const cookieValue = getCookie("bx_guest_ref");
         return cookieValue || "visitor-" + Math.random().toString(36).substr(2, 9);
     });
+
+    // ✅ Get click counts from cookie
+    const getClickCounts = () => {
+        try {
+            const cookie = getCookie("click_counts");
+            return cookie ? JSON.parse(cookie) : {};
+        } catch {
+            return {};
+        }
+    };
+
+    // ✅ Save updated click counts
+    const saveClickCounts = (counts: Record<string, number>) => {
+        setCookie("click_counts", JSON.stringify(counts), 7); // store for 7 days
+    };
 
     // ✅ Publish event
     const publishEvent = async (event: any) => {
@@ -37,14 +52,12 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
         }
     };
 
-    // ✅ Fetch results with keyword + apply filters locally
+    // ✅ Fetch results and apply local sorting
     const loadResults = async () => {
         try {
             setLoading(true);
 
-            // fetch from API with keyword
             const data = await fetchSearchResults(rfkId, keyword, uuid);
-
             const widget = data.widgets?.[0];
             let resultsData = widget?.content || [];
 
@@ -56,7 +69,7 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                 }
             });
 
-            // apply keyword filter locally (extra safety so search+filters behave the same)
+            // apply keyword filter locally
             if (keyword && keyword.trim() !== "") {
                 const lower = keyword.toLowerCase();
                 resultsData = resultsData.filter(
@@ -67,26 +80,12 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                 );
             }
 
+            // ✅ Sort only on page load
+            const clickCounts = getClickCounts();
+            resultsData.sort((a: any, b: any) => (clickCounts[b.id] || 0) - (clickCounts[a.id] || 0));
+
             setResults(resultsData);
             setFacets(widget?.facet || []);
-
-            // publish view event
-            if (resultsData.length > 0 && widget?.request_id) {
-                await publishEvent({
-                    name: "entity_page",
-                    action: "view",
-                    client_time_ms: Date.now(),
-                    user_id: uuid,
-                    value: {
-                        context: { locale: { country: "us", language: "en" }, page: { uri: window.location.href } },
-                        entities: resultsData.map((r: any) => ({
-                            id: r.id,
-                            uri: r.url,
-                            entity_type: "content",
-                        })),
-                    },
-                });
-            }
         } catch (err) {
             console.error("❌ Error fetching search results:", err);
         } finally {
@@ -99,6 +98,7 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
     }, [rfkId, uuid, keyword, selectedFacets]);
 
     const handleResultClick = async (item: any) => {
+        // ✅ Publish event
         await publishEvent({
             name: "entity_page",
             action: "click",
@@ -115,6 +115,11 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                 ],
             },
         });
+
+        // ✅ Update local cookie counts only (NO reordering here)
+        const counts = getClickCounts();
+        counts[item.id] = (counts[item.id] || 0) + 1;
+        saveClickCounts(counts);
     };
 
     return (
@@ -175,7 +180,9 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                             <h4>{item.title}</h4>
                             <p style={{ fontSize: "14px", color: "#333" }}>{item.description || "No description."}</p>
                             {item.author && (
-                                <p style={{ fontWeight: "bold", fontSize: "13px", color: "#555" }}>Author: {item.author}</p>
+                                <p style={{ fontWeight: "bold", fontSize: "13px", color: "#555" }}>
+                                    Author: {item.author}
+                                </p>
                             )}
                             {item.image_url && (
                                 <img
@@ -185,9 +192,7 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                                 />
                             )}
                             <div style={{ marginTop: "auto", marginTop: "12px" }}>
-                                <a href={item.url} target="_blank" rel="noreferrer">
-                                    Read More →
-                                </a>
+
                                 <button
                                     onClick={() => handleResultClick(item)}
                                     style={{
@@ -200,8 +205,7 @@ export default function SearchResults({ rfkId, keyword }: { rfkId: string; keywo
                                         cursor: "pointer",
                                     }}
                                 >
-                                    Track Click
-                                </button>
+                                    Read More                                </button>
                             </div>
                         </div>
                     ))}

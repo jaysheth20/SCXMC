@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
 import SearchResults from "./SearchResults";
 import SearchBox from "./SearchBox";
+import UnifiedSearch from "./UnifiedSearch";
+
 import RecommendSearch from "./RecommendSearch";
 
 let engageInstance: any = null;
@@ -111,7 +113,8 @@ const DemoSample = () => {
 
       <h2>🔎 Sitecore Search Demo</h2>
       <SearchBox />
-
+      <h2>🔎 Sitecore Search UnifiedSearch</h2>
+      <UnifiedSearch />
     </div>
   );
 };

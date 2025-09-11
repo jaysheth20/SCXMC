@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { fetchSearchResults } from "../lib/sitecoreSearch";
+import SearchResults from "./SearchResults";
 
 interface BlogItem {
     id: string;
@@ -12,22 +13,19 @@ interface BlogItem {
     url: string;
 }
 
-interface RecommendSearchProps {
-    onSelectSuggestion?: (keyword: string) => void;
-}   
-
-const RecommendSearch: React.FC<RecommendSearchProps> = ({ onSelectSuggestion }) => {
+export default function UnifiedSearch() {
     const [keyword, setKeyword] = useState("");
     const [blogs, setBlogs] = useState<BlogItem[]>([]);
     const [uuid, setUuid] = useState<string>("");
+    const [searchTerm, setSearchTerm] = useState(""); // for final search trigger
 
-    // ✅ read cookie only on client
+    // ✅ get bx_guest_ref (once on mount)
     useEffect(() => {
         const cookieValue = document.cookie.match(/bx_guest_ref=([^;]+)/)?.[1];
         setUuid(cookieValue || "visitor-" + Math.random().toString(36).substr(2, 9));
     }, []);
 
-    // ✅ fetch only when user starts typing
+    // ✅ load recommendations on typing
     useEffect(() => {
         if (!uuid || keyword.length === 0) {
             setBlogs([]);
@@ -36,11 +34,11 @@ const RecommendSearch: React.FC<RecommendSearchProps> = ({ onSelectSuggestion })
 
         const loadRecommendations = async () => {
             try {
-                const data: any = await fetchSearchResults("1003", "", uuid); // fetch all blogs
+                const data: any = await fetchSearchResults("1003", "", uuid);
                 const widget = data.widgets?.[0];
                 let items: BlogItem[] = widget?.content || [];
 
-                // Apply filtering only if keyword has 4+ characters
+                // 🔹 show all blogs for first 1–3 letters, filter only after 4+
                 if (keyword.length >= 4) {
                     items = items.filter((b) =>
                         b.name?.toLowerCase().includes(keyword.toLowerCase())
@@ -57,28 +55,45 @@ const RecommendSearch: React.FC<RecommendSearchProps> = ({ onSelectSuggestion })
         loadRecommendations();
     }, [keyword, uuid]);
 
+    // ✅ select suggestion
     const handleSelect = (blog: BlogItem) => {
         setKeyword(blog.name);
         setBlogs([]);
-        if (onSelectSuggestion) onSelectSuggestion(blog.name);
+        setSearchTerm(blog.name); // run full search
+    };
+
+    // ✅ submit search
+    const handleSearch = (e: React.FormEvent) => {
+        e.preventDefault();
+        setSearchTerm(keyword);
+        setBlogs([]); // hide popup after search
     };
 
     return (
         <div style={{ position: "relative", marginBottom: "1rem" }}>
-            <input
-                type="text"
-                placeholder="Type to get recommendations..."
-                value={keyword}
-                onChange={(e) => setKeyword(e.target.value)}
-                style={{ padding: "6px 12px", width: "250px" }}
-            />
+            {/* Search Input */}
+            <form onSubmit={handleSearch}>
+                <input
+                    type="text"
+                    placeholder="Search blogs..."
+                    value={keyword}
+                    onChange={(e) => setKeyword(e.target.value)}
+                    style={{ padding: "6px 12px", width: "300px" }}
+                />
+                <button
+                    type="submit"
+                    style={{ marginLeft: "0.5rem", padding: "6px 12px" }}
+                >
+                    Search
+                </button>
+            </form>
 
-            {/* ✅ show popup only when keyword has >=1 character */}
+            {/* Popup Suggestions */}
             {keyword.length > 0 && blogs.length > 0 && (
                 <div
                     style={{
                         position: "absolute",
-                        top: "36px",
+                        top: "40px",
                         left: 0,
                         width: "300px",
                         border: "1px solid #ddd",
@@ -115,17 +130,13 @@ const RecommendSearch: React.FC<RecommendSearchProps> = ({ onSelectSuggestion })
                                     {blog.description}
                                 </p>
                             )}
-                            {blog.author && (
-                                <p style={{ margin: 0, fontSize: "11px", color: "#888" }}>
-                                    Author: {blog.author}
-                                </p>
-                            )}
                         </div>
                     ))}
                 </div>
             )}
+
+            {/* Full Search Results */}
+            {searchTerm && <SearchResults rfkId="1001" keyword={searchTerm} />}
         </div>
     );
-};
-
-export default RecommendSearch;
+}
