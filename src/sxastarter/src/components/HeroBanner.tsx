@@ -64,8 +64,7 @@
 
 import React from 'react';
 import { Text, Image as SitecoreImage } from '@sitecore-jss/sitecore-jss-nextjs';
-import HeroBannerItem from './HeroBannerItem';
-
+   
 interface HeroBannerItemFields {
   id: string;
   fields: {
@@ -87,14 +86,13 @@ interface HeroBannerParams {
 interface HeroBannerProps {
   fields?: HeroBannerFields;
   params?: HeroBannerParams;
-  rendering?: any; // 👈 Sitecore rendering metadata (variant info here)
+  rendering?: unknown; // 👈 Sitecore rendering metadata (variant info here)
 
 }
 
 export default function HeroBanner({ fields, params, rendering }: HeroBannerProps): JSX.Element {
   const title = fields?.Title;
   const image = fields?.Image;
-  const multiList = fields?.MultiList || [];
   console.log('HeroBanner rendering metadata:', rendering); // 👈 Logs variant info
 
   console.log('HeroBanner fields:', fields);

@@ -20,13 +20,16 @@ type ImageProps = {
   fields: Fields;
 };
 
-const ImageDefault = (props: ImageProps): JSX.Element => (
-  <div className={`component image ${props.params.styles}`.trimEnd()}>
-    <div className="component-content">
-      <span className="is-empty-hint">Image</span>
+const ImageDefault = (props: ImageProps): JSX.Element => {
+  const params = props.params || {};
+  return (
+    <div className={`component image ${params.styles || ''}`.trimEnd()}>
+      <div className="component-content">
+        <span className="is-empty-hint">Image</span>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export const Banner = (props: ImageProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
@@ -44,11 +47,12 @@ export const Banner = (props: ImageProps): JSX.Element => {
       ?.replace(`width="${props?.fields?.Image?.value?.width}"`, 'width="100%"')
       .replace(`height="${props?.fields?.Image?.value?.height}"`, 'height="100%"'),
   };
-  const id = props.params.RenderingIdentifier;
+  const params = props.params || {};
+  const id = params.RenderingIdentifier;
 
   return (
     <div
-      className={`component hero-banner ${props.params.styles} ${classHeroBannerEmpty}`}
+      className={`component hero-banner ${params.styles || ''} ${classHeroBannerEmpty}`}
       id={id ? id : undefined}
     >
       <div className="component-content sc-sxa-image-hero-banner" style={backgroundStyle}>
@@ -63,10 +67,11 @@ export const Default = (props: ImageProps): JSX.Element => {
 
   if (props.fields) {
     const Image = () => <JssImage field={props.fields.Image} />;
-    const id = props.params.RenderingIdentifier;
+    const params = props.params || {};
+    const id = params.RenderingIdentifier;
 
     return (
-      <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
+      <div className={`component image ${params.styles || ''}`} id={id ? id : undefined}>
         <div className="component-content">
           {sitecoreContext.pageState === 'edit' || !props.fields.TargetUrl?.value?.href ? (
             <Image />

@@ -31,7 +31,6 @@ class NormalModePlugin implements Plugin {
     props.layoutData = await layoutService.fetchLayoutData(
       path,
       props.locale,
-      // eslint-disable-next-line prettier/prettier
       isServerSidePropsContext(context) ? (context as GetServerSidePropsContext).req : undefined,
       isServerSidePropsContext(context) ? (context as GetServerSidePropsContext).res : undefined
     );

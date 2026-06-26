@@ -11,19 +11,20 @@ interface ComponentProps {
 }
 
 export const Default = (props: ComponentProps): JSX.Element => {
-  const styles = `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd();
+  const params = props.params || {};
+  const styles = `${params.GridParameters ?? ''} ${params.Styles ?? ''}`.trimEnd();
   const rowStyles = [
-    props.params.Styles1,
-    props.params.Styles2,
-    props.params.Styles3,
-    props.params.Styles4,
-    props.params.Styles5,
-    props.params.Styles6,
-    props.params.Styles7,
-    props.params.Styles8,
+    params.Styles1,
+    params.Styles2,
+    params.Styles3,
+    params.Styles4,
+    params.Styles5,
+    params.Styles6,
+    params.Styles7,
+    params.Styles8,
   ];
-  const enabledPlaceholders = props.params.EnabledPlaceholders.split(',');
-  const id = props.params.RenderingIdentifier;
+  const enabledPlaceholders = (params.EnabledPlaceholders || '').split(',').filter(Boolean);
+  const id = params.RenderingIdentifier;
 
   return (
     <div className={`component row-splitter ${styles}`} id={id ? id : undefined}>

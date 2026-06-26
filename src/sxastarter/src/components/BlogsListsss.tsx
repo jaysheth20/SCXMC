@@ -1,5 +1,5 @@
 import React from 'react';
-import { ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // export type BlogsListProps = {
 //     rendering: ComponentRendering;

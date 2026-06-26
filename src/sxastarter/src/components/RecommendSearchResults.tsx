@@ -21,6 +21,12 @@ export default function RecommendSearchResults({ keyword }: RecommendSearchResul
     const [loading, setLoading] = useState(false);
     const [uuid, setUuid] = useState<string>("");
 
+    // ✅ Set uuid on client side
+    useEffect(() => {
+        const cookieValue = typeof document !== "undefined" ? document.cookie.match(/bx_guest_ref=([^;]+)/)?.[1] : undefined;
+        setUuid(cookieValue || `visitor-${Math.random().toString(36).slice(2, 11)}`);
+    }, []);
+
     // ✅ fetch results on keyword change
     useEffect(() => {
         if (!keyword || !uuid) return setResults([]);
@@ -28,7 +34,7 @@ export default function RecommendSearchResults({ keyword }: RecommendSearchResul
         const loadResults = async () => {
             try {
                 setLoading(true);
-                const data: any = await fetchSearchResults("1003", keyword, uuid);
+                const data = (await fetchSearchResults("1003", keyword, uuid)) as { widgets?: Array<{ content?: BlogItem[] }> };
                 const widget = data.widgets?.[0];
                 let items: BlogItem[] = widget?.content || [];
 

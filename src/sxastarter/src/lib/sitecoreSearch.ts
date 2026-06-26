@@ -3,7 +3,7 @@
     const apiKey =
       "01-69b141fb-5eaec29094dc20b453087d784b7bf4283555fe18";
 
-    const body: any = {
+    const body = {
       context: {
         locale: { country: "us", language: "en" },
         user: { uuid: uuid || "anonymous" },

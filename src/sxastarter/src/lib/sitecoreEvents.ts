@@ -1,4 +1,6 @@
 // lib/sitecoreEvents.ts
+import { SearchItem } from './searchUtils';
+
 export async function trackWidgetViewEvent({
   rfkId,
   uuid,
@@ -10,7 +12,7 @@ export async function trackWidgetViewEvent({
   uuid: string;
   requestId: string;
   interactionId?: string;
-  results: any[];
+  results: SearchItem[];
 }) {
   const endpoint = "https://discover.sitecorecloud.io/discover/v2/128591118/events"; // 👈 /events endpoint
   const apiKey =

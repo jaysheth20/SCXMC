@@ -1,17 +1,15 @@
 // components/DemoSample.tsx
 import React, { useState } from 'react';
 import { loadEngage } from '../lib/engageClient';
-import SearchResults from "./SearchResults";
 import SearchBox from "./SearchBox";
 import UnifiedSearch from "./UnifiedSearch";
 
 import RecommendSearch from "./RecommendSearch";
 
-let engageInstance: any = null;
+let engageInstance: Awaited<ReturnType<typeof loadEngage>> | null = null;
 
 const DemoSample = () => {
   const [status, setStatus] = useState('');
-  const [sessionStarted, setSessionStarted] = useState(false);
   const [guestRef, setGuestRef] = useState<string | null>(null);
 
   // ✅ helper to read cookies
@@ -52,12 +50,12 @@ const DemoSample = () => {
         currency: 'USD',
         language: 'en',
         page: 'home', // static
+      }, {
         item: { id: guestRef || '' } // 👈 passing guestRef also if needed
       });
 
       console.log('✅ Page view event sent!');
       setStatus('Page view event sent! (session started)');
-      setSessionStarted(true);
     } catch (err) {
       console.error('❌ Error sending page view:', err);
       setStatus('Error sending page view.');
@@ -86,10 +84,11 @@ const DemoSample = () => {
             "id": "dhruvtrivedi2002@gmail.com"
           }
         ],
-        item: { id: guestRef || '' } // 👈 include bx_guest_ref here too
       };
 
-      await engageInstance.identity(eventData);
+      await engageInstance.identity(eventData, {
+        item: { id: guestRef || '' } // 👈 include bx_guest_ref here too
+      });
 
       console.log('✅ Identity event sent!', eventData);
       setStatus('Identity event sent!');
@@ -111,7 +110,7 @@ const DemoSample = () => {
       {guestRef && <p>🎯 <strong>bx_guest_ref:</strong> {guestRef}</p>}
       <RecommendSearch onSelectSuggestion={(keyword) => console.log("Selected:", keyword)} />
 
-      <h2>🔎 Sitecore Search Demo</h2>
+      <h2>🔎Sitecore Search Demo</h2>
       <SearchBox />
       <h2>🔎 Sitecore Search UnifiedSearch</h2>
       <UnifiedSearch />

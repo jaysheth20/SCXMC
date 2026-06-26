@@ -5,15 +5,18 @@ import { SitecorePageProps } from 'lib/page-props';
 import Bootstrap from 'src/Bootstrap';
 
 import 'assets/main.scss';
+import 'assets/app.css';
 
 import { useEffect, useRef } from 'react';
 import { loadEngage } from '../lib/engageClient';
 
 function App({ Component, pageProps, router }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
+  const resolvedLocale = pageProps.locale || 'en';
+  const itemId = pageProps.layoutData?.sitecore?.route?.itemId || undefined;
 
   // ✅ Keep engageInstance stable across renders
-  const engageRef = useRef<any>(null);
+  const engageRef = useRef<Awaited<ReturnType<typeof loadEngage>> | null>(null);
 
   useEffect(() => {
     const initEngage = async () => {
@@ -28,9 +31,10 @@ function App({ Component, pageProps, router }: AppProps<SitecorePageProps>): JSX
           engageInstance.pageView({
             channel: 'WEB',
             currency: 'USD',
-            language: pageProps.locale || 'en',
+            language: resolvedLocale,
             page: router.asPath,
-            itemId: (pageProps as any)?.itemId || null,
+          }, {
+            itemId: itemId,
           });
         } catch (err) {
           console.error('❌ Error initializing Engage:', err);
@@ -46,11 +50,11 @@ function App({ Component, pageProps, router }: AppProps<SitecorePageProps>): JSX
       if (engageInstance) {
         engageInstance.pageView({
           channel: 'WEB',
-          language: pageProps.locale || 'en',
+          currency: 'USD',
+          language: resolvedLocale,
           page: url,
-          // ❌ Don’t use pageProps here → itemId is stale
-          // Instead: pass null or resolve itemId from your layout service
-          itemId: null,
+        }, {
+          itemId: undefined,
         });
         console.log(`📄 Page view event sent for: ${url}`);
       }
@@ -61,7 +65,7 @@ function App({ Component, pageProps, router }: AppProps<SitecorePageProps>): JSX
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     };
-  }, [router, pageProps.locale, pageProps.itemId]);
+  }, [router, resolvedLocale, itemId]);
 
   return (
     <>

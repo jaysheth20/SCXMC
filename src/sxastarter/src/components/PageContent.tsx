@@ -33,11 +33,12 @@ const ComponentContent = (props: ComponentContentProps) => {
 
 export const Default = (props: PageContentProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
-  const id = props.params.RenderingIdentifier;
+  const params = props.params || {};
+  const id = params.RenderingIdentifier;
 
   if (!(props.fields && props.fields.Content) && !sitecoreContext?.route?.fields?.Content) {
     return (
-      <div className={`component content ${props.params.styles}`} id={id ? id : undefined}>
+      <div className={`component content ${params.styles || ''}`} id={id ? id : undefined}>
         <div className="component-content">
           <div className="field-content">[Content]</div>
         </div>
@@ -52,7 +53,7 @@ export const Default = (props: PageContentProps): JSX.Element => {
   ) as RichTextField;
 
   return (
-    <ComponentContent styles={props.params.styles} id={id}>
+    <ComponentContent styles={params.styles || ''} id={id}>
       <JssRichText field={field} />
     </ComponentContent>
   );

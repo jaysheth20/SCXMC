@@ -11,29 +11,30 @@ interface ComponentProps {
 }
 
 export const Default = (props: ComponentProps): JSX.Element => {
-  const styles = `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd();
+  const params = props.params || {};
+  const styles = `${params.GridParameters ?? ''} ${params.Styles ?? ''}`.trimEnd();
   const columnWidths = [
-    props.params.ColumnWidth1,
-    props.params.ColumnWidth2,
-    props.params.ColumnWidth3,
-    props.params.ColumnWidth4,
-    props.params.ColumnWidth5,
-    props.params.ColumnWidth6,
-    props.params.ColumnWidth7,
-    props.params.ColumnWidth8,
+    params.ColumnWidth1,
+    params.ColumnWidth2,
+    params.ColumnWidth3,
+    params.ColumnWidth4,
+    params.ColumnWidth5,
+    params.ColumnWidth6,
+    params.ColumnWidth7,
+    params.ColumnWidth8,
   ];
   const columnStyles = [
-    props.params.Styles1,
-    props.params.Styles2,
-    props.params.Styles3,
-    props.params.Styles4,
-    props.params.Styles5,
-    props.params.Styles6,
-    props.params.Styles7,
-    props.params.Styles8,
+    params.Styles1,
+    params.Styles2,
+    params.Styles3,
+    params.Styles4,
+    params.Styles5,
+    params.Styles6,
+    params.Styles7,
+    params.Styles8,
   ];
-  const enabledPlaceholders = props.params.EnabledPlaceholders.split(',');
-  const id = props.params.RenderingIdentifier;
+  const enabledPlaceholders = (params.EnabledPlaceholders || '').split(',').filter(Boolean);
+  const id = params.RenderingIdentifier;
 
   return (
     <div className={`row component column-splitter ${styles}`} id={id ? id : undefined}>

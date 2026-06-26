@@ -1,4 +1,5 @@
-// SearchBox.tsx
+"use client";
+
 import { useState } from "react";
 import SearchResults from "./SearchResults";
 
@@ -8,26 +9,31 @@ export default function SearchBox() {
 
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
-        setSearchTerm(keyword); // trigger new search
+        setSearchTerm(keyword.trim());
     };
 
     return (
-        <div>
-            <form onSubmit={handleSearch} style={{ marginBottom: "1rem" }}>
-                <input
-                    type="text"
-                    placeholder="Search..."
-                    value={keyword}
-                    onChange={(e) => setKeyword(e.target.value)}
-                    style={{ padding: "6px 12px", width: "250px" }}
-                />
-                <button type="submit" style={{ marginLeft: "0.5rem", padding: "6px 12px" }}>
-                    Search
-                </button>
-            </form>
+        <div className="search-experience">
+            <div className="search-shell">
+                <form onSubmit={handleSearch} className="search-form">
+                    <div className="search-input-wrap">
+                        <span className="search-input-icon">Search</span>
+                        <input
+                            type="text"
+                            placeholder="Type to search..."
+                            value={keyword}
+                            onChange={(e) => setKeyword(e.target.value)}
+                            className="search-input"
+                            aria-label="Search input"
+                        />
+                        <button type="submit" className="search-submit">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
 
-            {/* pass keyword into results */}
-            <SearchResults rfkId="1001" keyword={searchTerm} />
+            {searchTerm && <SearchResults rfkId="1001" keyword={searchTerm} />}
         </div>
     );
 }

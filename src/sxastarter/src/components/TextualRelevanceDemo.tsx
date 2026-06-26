@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 
+interface SearchResultItem {
+    values?: {
+        title?: string[];
+        description?: string[];
+    };
+}
+
 const TextRelevanceDemo: React.FC = () => {
     const [query, setQuery] = useState("");
-    const [results, setResults] = useState<any[]>([]);
+    const [results, setResults] = useState<SearchResultItem[]>([]);
     const endpoint = "https://discover.sitecorecloud.io/discover/v2/128591118"; // ✅ your accountId
     const apiKey = "01-69b141fb-5eaec29094dc20b453087d784b7bf4283555fe18"; // ✅ your API key
 
@@ -23,7 +30,7 @@ const TextRelevanceDemo: React.FC = () => {
                                 query: {
                                     keyphrase: query,
                                     options: {
-                                        textualRelevance: {
+                                            textualRelevance: {
                                             fields: {
                                                 title: { boost: 3.0 },        // higher weight
                                                 description: { boost: 1.5 }, // medium weight
@@ -49,7 +56,7 @@ const TextRelevanceDemo: React.FC = () => {
 
             if (!res.ok) {
                 throw new Error(`❌ Search failed: ${res.status} ${res.statusText}`);
-            }
+            }   
 
             const data = await res.json();
             setResults(data?.widget?.items?.[0]?.response?.items || []);

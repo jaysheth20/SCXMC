@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchResultsWidget } from "@sitecore-search/react";
+import SearchResults from "./SearchResults";
 
 type Props = {
     rfkId: string | number;
@@ -8,10 +8,8 @@ type Props = {
 const MySearchResultsWidget: React.FC<Props> = ({ rfkId }) => {
     return (
         <div className="my-search-widget">
-            <SearchResultsWidget
-                rfkId={1001} // 👈 use prop passed in
-                viewType="list" // or "grid"
-                fields={["name", "description", "author", "url", "image_url"]}
+            <SearchResults
+                rfkId={String(rfkId)}
             />
         </div>
     );

@@ -17,11 +17,12 @@ interface ComponentProps {
 
 const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
-  const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
-  const styles = `${props.params.GridParameters} ${containerStyles}`.trimEnd();
-  const phKey = `container-${props.params.DynamicPlaceholderId}`;
-  const id = props.params.RenderingIdentifier;
-  let backgroundImage = props.params.BackgroundImage as string;
+  const params = props.params || {};
+  const containerStyles = params.Styles ? params.Styles : '';
+  const styles = `${params.GridParameters || ''} ${containerStyles}`.trimEnd();
+  const phKey = `container-${params.DynamicPlaceholderId || ''}`;
+  const id = params.RenderingIdentifier;
+  let backgroundImage = params.BackgroundImage as string;
   let backgroundStyle: { [key: string]: string } = {};
 
   if (backgroundImage) {

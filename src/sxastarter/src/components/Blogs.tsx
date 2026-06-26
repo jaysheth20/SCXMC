@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, ImageField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Blogsitem from './BlogsItem';
 import { loadEngage } from '../lib/engageClient';
 
@@ -11,10 +11,20 @@ interface Fields {
 interface BlogsitemFields {
     id: string;
     fields: {
-        BlogTitle: Field<string>;
-        BlogDescription: Field<string>;
+        'Blog Title': Field<string>;
+        'Blog Description': Field<string>;
         Author: Field<string>;
+        Image: ImageField;
     };
+} 
+
+interface QueryResultItem {
+    id: string;
+    name: string;
+    blogTitle?: { value: string };
+    blogDescription?: { value: string };
+    author?: { value: string };
+    image?: { jsonValue: unknown };
 }
 
 export type BlogsProps = {
@@ -84,15 +94,15 @@ export const Default = (props: BlogsProps): JSX.Element => {
             });
 
             const data = await response.json();
-            const results = data?.data?.search?.results || [];
+            const results = (data?.data?.search?.results || []) as QueryResultItem[];
 
-            const mappedBlogs: BlogsitemFields[] = results.map((item: any) => ({
+            const mappedBlogs: BlogsitemFields[] = results.map((item) => ({
                 id: item.id,
                 fields: {
-                    BlogTitle: { value: item.blogTitle?.value },
-                    BlogDescription: { value: item.blogDescription?.value },
-                    Author: { value: item.author?.value },
-                    Image: item.image?.jsonValue,
+                    'Blog Title': { value: item.blogTitle?.value ?? '' },
+                    'Blog Description': { value: item.blogDescription?.value ?? '' },
+                    Author: { value: item.author?.value ?? '' },
+                    Image: (item.image?.jsonValue ?? {}) as ImageField,
                 },
             }));
 
@@ -160,9 +170,8 @@ export const Default = (props: BlogsProps): JSX.Element => {
             ) : blogs.length > 0 ? (
                 <div className="hero-items grid gap-6 md:grid-cols-2">
                     {blogs.map((item) => (
-                        // @ts-ignore
 
-                        <Blogsitem key={item.id} fields={item.fields as any} />
+                        <Blogsitem key={item.id} fields={item.fields} />
                     ))}
                 </div>
             ) : (

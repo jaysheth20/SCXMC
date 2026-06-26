@@ -1,7 +1,7 @@
 // lib/engageClient.ts
 import { init } from '@sitecore/engage';
 
-let engage: any = null;
+let engage: Awaited<ReturnType<typeof init>> | null = null;
 
 const loadEngage = async () => {
   if (engage) return engage; // ✅ Reuse existing instance
@@ -12,7 +12,6 @@ const loadEngage = async () => {
     pointOfSale: 'demo',
     cookieDomain: 'localhost',
     cookieExpiryDays: 365,
-    channel: 'WEB',
     forceServerCookieMode: false,
     includeUTMParameters: true,
     webPersonalization: true,
